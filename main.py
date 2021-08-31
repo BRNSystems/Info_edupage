@@ -1,9 +1,24 @@
-import json
+from multiprocessing import Process
+from multiprocessing import Queue
 import time
 import requests
+
 test_lenght_substitution = 7
 url_school = "https://spspb.edupage.org/"
 account = {"username": "login", "password": "pass"}
+
+
+def run_in_parallel(edu, vision):
+    q = Queue()
+
+    p0 = Process(target=edu.run, args=(q,))
+    p1 = Process(target=vision.run, args=(q,))
+
+    p0.run()
+    p1.run()
+
+    p0.join()
+    p1.join()
 
 
 def get_substitutions():
@@ -34,7 +49,7 @@ def get_substitutions():
                 if line == '<img src="/global/pics/ui/absent_32.svg" style="height:16px;display:inline-block;vertical-align:text-bottom;margin-right:5px"/>Chýba':
                     list_triedy[trieda][list_parsed[position - 1]] = "Chýba"
                 else:
-                    list_triedy[trieda][list_parsed[position-1]] = line
+                    list_triedy[trieda][list_parsed[position - 1]] = line
         list_triedy["chybajuci"] = chybajuci_uc
         return list_triedy
 
