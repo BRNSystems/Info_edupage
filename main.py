@@ -3,7 +3,7 @@ import time
 import requests
 test_lenght_substitution = 7
 url_school = "https://spspb.edupage.org/"
-account = {"username": "JakubDuris", "password": "TKNENLAAEU"}
+account = {"username": "login", "password": "pass"}
 
 
 def get_substitutions():
