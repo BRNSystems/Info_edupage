@@ -1,0 +1,4 @@
+add: https://spspb.edupage.org/rpr/server/maindbi.js?__func=mainDBIAccessor
+res: teachers(id, short, hidden, expired), subjects(id, name, short), classrooms(ID, short), classes(id, name, short), periods(endtime, starttime, id, name, period, short), dates(?), events(?), event_types(?), subst_absents
+req: {"__args":[null,2021,{"vt_filter":{"datefrom":"2021-08-16","dateto":"2021-08-22"}},{"op":"fetch","tables":[],"columns":[],"needed_part":{"teachers":["__name","cb_hidden","expired","firstname","lastname","short"],"classes":["__name","classroomid"],"classrooms":["__name","name","short"],"igroups":["__name"],"students":["__name","classid"],"subjects":["__name","name","short"],"events":["typ","name"],"event_types":["name"],"subst_absents":["date","absent_typeid","groupname"],"dates":["tt_num","tt_day"]},"needed_combos":{},"client_filter":{},"info_tables":[],"info_columns":[]}],"__gsh":"00000000"}
+

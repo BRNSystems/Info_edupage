@@ -1,0 +1,3852 @@
+{
+  "items": [
+    {
+      "timelineid": "464813",
+      "timestamp": "2021-08-17 13:17:08",
+      "typ": "h_chatlist",
+      "user": "Student562989",
+      "user_meno": "Matej Justus",
+      "ineid": "171",
+      "text": "",
+      "cas_pridania": "2021-08-17 13:17:08",
+      "data": "[]",
+      "vlastnik": "Student562989",
+      "vlastnik_meno": "Matej Justus",
+      "pocet_reakcii": "0",
+      "posledna_reakcia": "",
+      "removed": "0",
+      "cas_pridania_btc": "2021-08-17 13:17:08"
+    },
+    {
+      "timelineid": "454439",
+      "timestamp": "2021-08-17 13:17:07",
+      "typ": "h_chatlist",
+      "user": "Student562989",
+      "user_meno": "Matej Justus",
+      "ineid": "843",
+      "text": "",
+      "cas_pridania": "2021-08-17 13:17:07",
+      "data": "[]",
+      "vlastnik": "Student562989",
+      "vlastnik_meno": "Matej Justus",
+      "pocet_reakcii": "0",
+      "posledna_reakcia": "",
+      "removed": "0",
+      "cas_pridania_btc": "2021-08-17 13:17:07"
+    },
+    {
+      "timelineid": "274836",
+      "timestamp": "2021-07-19 12:09:15",
+      "typ": "h_financie",
+      "user": "*",
+      "user_meno": "Celá škola",
+      "ineid": "financie",
+      "text": "Prijatá nová platba",
+      "cas_pridania": "2021-07-19 12:09:15",
+      "data": "[]",
+      "vlastnik": "Student601204",
+      "vlastnik_meno": "Andrea Večerková",
+      "pocet_reakcii": "0",
+      "posledna_reakcia": "",
+      "removed": "0",
+      "cas_pridania_btc": "2021-07-19 12:09:15"
+    }
+  ],
+  "userProps": {
+    "225342": {
+      "starred": "0"
+    },
+    "260191": {
+      "starred": "1"
+    },
+    "274888": {
+      "doneMaxCas": "2020-09-08 10:54:40"
+    },
+    "280604": {
+      "doneMaxCas": "2020-10-11 19:18:02"
+    },
+    "295569": {
+      "doneMaxCas": "2020-10-24 13:41:55"
+    },
+    "301795": {
+      "doneMaxCas": "2020-10-29 09:06:15"
+    },
+    "328098": {
+      "doneMaxCas": "2020-11-16 10:04:46"
+    },
+    "357235": {
+      "doneMaxCas": "2020-12-07 11:27:23"
+    },
+    "357236": {
+      "doneMaxCas": "2020-12-07 11:27:26"
+    },
+    "371989": {
+      "doneMaxCas": "2021-01-13 13:57:16"
+    },
+    "371987": {
+      "doneMaxCas": "2021-01-13 13:57:20"
+    },
+    "371950": {
+      "doneMaxCas": "2021-01-13 13:57:23"
+    },
+    "378539": {
+      "doneMaxCas": "2021-01-20 10:05:46"
+    },
+    "370476": {
+      "doneMaxCas": "2021-01-20 12:30:45"
+    },
+    "405775": {
+      "doneMaxCas": "2021-03-03 10:05:07"
+    }
+  },
+  "dbi": {
+    "teachers": {
+      "536804": {
+        "id": "536804",
+        "firstname": "Andrej",
+        "lastname": "Babečka",
+        "short": "BA",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2018-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69350": {
+        "id": "69350",
+        "firstname": "Jaroslav",
+        "lastname": "Benduliak",
+        "short": "BN",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2000-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69351": {
+        "id": "69351",
+        "firstname": "Blažej",
+        "lastname": "Briestenský",
+        "short": "BR",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2001-08-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69239": {
+        "id": "69239",
+        "firstname": "Elena",
+        "lastname": "Caránková",
+        "short": "CA",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2003-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69354": {
+        "id": "69354",
+        "firstname": "Ľubica",
+        "lastname": "Fabianová",
+        "short": "FA",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "1992-09-14",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69356": {
+        "id": "69356",
+        "firstname": "Pavol",
+        "lastname": "Heššo",
+        "short": "HE",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2002-10-10",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "515581": {
+        "id": "515581",
+        "firstname": "Maroš",
+        "lastname": "Hikaník",
+        "short": "HI",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2017-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69358": {
+        "id": "69358",
+        "firstname": "Berenika",
+        "lastname": "Chomjáková",
+        "short": "CH",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2000-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "617097": {
+        "id": "617097",
+        "firstname": "Peter",
+        "lastname": "Jurčík",
+        "short": "JR",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2020-10-19",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69289": {
+        "id": "69289",
+        "firstname": "Miroslava",
+        "lastname": "Kmeťková",
+        "short": "KM",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "1995-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69247": {
+        "id": "69247",
+        "firstname": "Ľubica",
+        "lastname": "Kováčová",
+        "short": "KĽ",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "1996-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69248": {
+        "id": "69248",
+        "firstname": "Zdena",
+        "lastname": "Kováčová",
+        "short": "KZ",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2000-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69363": {
+        "id": "69363",
+        "firstname": "Anna",
+        "lastname": "Krekáčová",
+        "short": "KR",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2000-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69241": {
+        "id": "69241",
+        "firstname": "Helena",
+        "lastname": "Lukášová",
+        "short": "LH",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2000-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69251": {
+        "id": "69251",
+        "firstname": "Tibor",
+        "lastname": "Macháč",
+        "short": "MC",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2005-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69249": {
+        "id": "69249",
+        "firstname": "Jana",
+        "lastname": "Markechová",
+        "short": "MA",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2003-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69366": {
+        "id": "69366",
+        "firstname": "Jana",
+        "lastname": "Markovičová",
+        "short": "MR",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2003-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69367": {
+        "id": "69367",
+        "firstname": "Eva",
+        "lastname": "Miklovičová",
+        "short": "MK",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2002-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "515370": {
+        "id": "515370",
+        "firstname": "Sidónia",
+        "lastname": "Ondrášiková",
+        "short": "ON",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2017-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69369": {
+        "id": "69369",
+        "firstname": "Jana",
+        "lastname": "Ovečková",
+        "short": "OV",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2002-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69372": {
+        "id": "69372",
+        "firstname": "Viera",
+        "lastname": "Sekerášová",
+        "short": "SE",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "1995-09-04",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "72181": {
+        "id": "72181",
+        "firstname": "Rastislav",
+        "lastname": "Schwartz",
+        "short": "SC",
+        "gender": "M",
+        "classroomid": "",
+        "datefrom": "2008-08-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "78839": {
+        "id": "78839",
+        "firstname": "Marcela",
+        "lastname": "Škorvánková",
+        "short": "ŠK",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2009-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "536805": {
+        "id": "536805",
+        "firstname": "Zuzana",
+        "lastname": "Špilová",
+        "short": "SP",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2018-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      },
+      "69357": {
+        "id": "69357",
+        "firstname": "Vladimíra",
+        "lastname": "Vošková",
+        "short": "VO",
+        "gender": "F",
+        "classroomid": "",
+        "datefrom": "2005-09-01",
+        "dateto": "",
+        "cb_hidden": 0,
+        "isOut": false
+      }
+    },
+    "classes": {
+      "634662": {
+        "id": "634662",
+        "name": "I.Ae",
+        "short": "",
+        "grade": "1",
+        "teacherid": "69354",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "634660": {
+        "id": "634660",
+        "name": "I.As",
+        "short": "",
+        "grade": "1",
+        "teacherid": "69354",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "634663": {
+        "id": "634663",
+        "name": "I.B",
+        "short": "",
+        "grade": "1",
+        "teacherid": "69357",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "634664": {
+        "id": "634664",
+        "name": "I.Ep",
+        "short": "",
+        "grade": "1",
+        "teacherid": "69248",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "601220": {
+        "id": "601220",
+        "name": "II.A",
+        "short": "",
+        "grade": "2",
+        "teacherid": "78839",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "601138": {
+        "id": "601138",
+        "name": "II.B",
+        "short": "II.B",
+        "grade": "2",
+        "teacherid": "69249",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "601142": {
+        "id": "601142",
+        "name": "II.Ee",
+        "short": "",
+        "grade": "2",
+        "teacherid": "69358",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "601139": {
+        "id": "601139",
+        "name": "II.Ep",
+        "short": "",
+        "grade": "2",
+        "teacherid": "69358",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "562839": {
+        "id": "562839",
+        "name": "III.Ap",
+        "short": "IIIAp",
+        "grade": "3",
+        "teacherid": "69350",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "562838": {
+        "id": "562838",
+        "name": "III.As",
+        "short": "IIIAs",
+        "grade": "3",
+        "teacherid": "69350",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "562840": {
+        "id": "562840",
+        "name": "III.B",
+        "short": "III.B",
+        "grade": "3",
+        "teacherid": "536805",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "562841": {
+        "id": "562841",
+        "name": "III.C",
+        "short": "",
+        "grade": "3",
+        "teacherid": "72181",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "534397": {
+        "id": "534397",
+        "name": "IV.Ap",
+        "short": "",
+        "grade": "4",
+        "teacherid": "69366",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "534398": {
+        "id": "534398",
+        "name": "IV.As",
+        "short": "IV.As",
+        "grade": "4",
+        "teacherid": "69366",
+        "teacher2id": "",
+        "classroomid": ""
+      },
+      "534395": {
+        "id": "534395",
+        "name": "IV.B",
+        "short": "IV.B",
+        "grade": "4",
+        "teacherid": "69247",
+        "teacher2id": "",
+        "classroomid": ""
+      }
+    },
+    "subjects": {
+      "69737": {
+        "id": "69737",
+        "name": "administratíva a korešpondencia",
+        "short": "ADK"
+      },
+      "69310": {
+        "id": "69310",
+        "name": "anglický jazyk",
+        "short": "ANJ"
+      },
+      "69956": {
+        "id": "69956",
+        "name": "anglický jazyk",
+        "short": "ANJ2"
+      },
+      "69794": {
+        "id": "69794",
+        "name": "aplikovaná informatika",
+        "short": "API"
+      },
+      "335464": {
+        "id": "335464",
+        "name": "aplikovaná matematika",
+        "short": "APM"
+      },
+      "69826": {
+        "id": "69826",
+        "name": "autoelektronika",
+        "short": "AUE"
+      },
+      "71172": {
+        "id": "71172",
+        "name": "automatizácia",
+        "short": "AUT"
+      },
+      "69815": {
+        "id": "69815",
+        "name": "automatizácia inžinierskych prác",
+        "short": "AIP"
+      },
+      "69793": {
+        "id": "69793",
+        "name": "automatizácia prípravy výroby",
+        "short": "APV"
+      },
+      "69798": {
+        "id": "69798",
+        "name": "cestná doprava",
+        "short": "CDO"
+      },
+      "70170": {
+        "id": "70170",
+        "name": "cestná doprava a preprava",
+        "short": "CDP"
+      },
+      "69808": {
+        "id": "69808",
+        "name": "cestné vozidlá",
+        "short": "CEV"
+      },
+      "70167": {
+        "id": "70167",
+        "name": "colná náuka",
+        "short": "CLA"
+      },
+      "474710": {
+        "id": "474710",
+        "name": "cudzí jazyk",
+        "short": "CUJ"
+      },
+      "71162": {
+        "id": "71162",
+        "name": "cudzojazyčná korešpondencia",
+        "short": "CUK"
+      },
+      "69823": {
+        "id": "69823",
+        "name": "cudzojazyčná korešpondencia z anglického jazyka",
+        "short": "CKA"
+      },
+      "69821": {
+        "id": "69821",
+        "name": "cvičenia z informatiky",
+        "short": "CVI"
+      },
+      "69819": {
+        "id": "69819",
+        "name": "cvičenia z matematiky",
+        "short": "CVM"
+      },
+      "84199": {
+        "id": "84199",
+        "name": "cvičenia z účtovníctva",
+        "short": "CVU"
+      },
+      "69807": {
+        "id": "69807",
+        "name": "cvičenia z výpočtovej techniky",
+        "short": "CVT"
+      },
+      "69822": {
+        "id": "69822",
+        "name": "cvičenia z výpočtovej techniky",
+        "short": "CVT"
+      },
+      "69799": {
+        "id": "69799",
+        "name": "časti strojov",
+        "short": "CST"
+      },
+      "562283": {
+        "id": "562283",
+        "name": "databázy",
+        "short": "DAT"
+      },
+      "69727": {
+        "id": "69727",
+        "name": "dejepis",
+        "short": "DEJ"
+      },
+      "69814": {
+        "id": "69814",
+        "name": "diagnostika motorových vozidiel",
+        "short": "DMV"
+      },
+      "71157": {
+        "id": "71157",
+        "name": "doprava a manipulácia",
+        "short": "DOM"
+      },
+      "69785": {
+        "id": "69785",
+        "name": "dopravná geografia",
+        "short": "DOG"
+      },
+      "603212": {
+        "id": "603212",
+        "name": "dopravná prevádzka",
+        "short": "DPR"
+      },
+      "69847": {
+        "id": "69847",
+        "name": "dopravná sústava",
+        "short": "DPS"
+      },
+      "70168": {
+        "id": "70168",
+        "name": "dopravné a prepravné prostriedky",
+        "short": "DRK"
+      },
+      "71137": {
+        "id": "71137",
+        "name": "dopravné tovaroznalectvo",
+        "short": "DOT"
+      },
+      "69779": {
+        "id": "69779",
+        "name": "ekológia",
+        "short": "EKL"
+      },
+      "69852": {
+        "id": "69852",
+        "name": "ekonomické cvičenia",
+        "short": "EKC"
+      },
+      "69734": {
+        "id": "69734",
+        "name": "ekonomika",
+        "short": "EKO"
+      },
+      "69735": {
+        "id": "69735",
+        "name": "ekonomika a riadenie podniku",
+        "short": "ERP"
+      },
+      "73444": {
+        "id": "73444",
+        "name": "elektronika",
+        "short": "ELE"
+      },
+      "562284": {
+        "id": "562284",
+        "name": "elektrotechnická spôsobilosť",
+        "short": "ETS"
+      },
+      "72609": {
+        "id": "72609",
+        "name": "elektrotechnické merania",
+        "short": "ELM"
+      },
+      "69784": {
+        "id": "69784",
+        "name": "elektrotechnika",
+        "short": "ELK"
+      },
+      "69928": {
+        "id": "69928",
+        "name": "estetická výchova",
+        "short": "ESV"
+      },
+      "69729": {
+        "id": "69729",
+        "name": "etická výchova",
+        "short": "ETV"
+      },
+      "69849": {
+        "id": "69849",
+        "name": "etika podnikania",
+        "short": "EIP"
+      },
+      "84142": {
+        "id": "84142",
+        "name": "etika v podnikaní",
+        "short": "EVP"
+      },
+      "69776": {
+        "id": "69776",
+        "name": "fyzika",
+        "short": "FYZ"
+      },
+      "69929": {
+        "id": "69929",
+        "name": "geografia",
+        "short": "GEO"
+      },
+      "72452": {
+        "id": "72452",
+        "name": "geografia cestovného ruchu",
+        "short": "GOR"
+      },
+      "516814": {
+        "id": "516814",
+        "name": "grafické a informačné systémy",
+        "short": "GSY"
+      },
+      "69802": {
+        "id": "69802",
+        "name": "grafické systémy",
+        "short": "GRS"
+      },
+      "69832": {
+        "id": "69832",
+        "name": "hospodárska geografia",
+        "short": "HOG"
+      },
+      "69738": {
+        "id": "69738",
+        "name": "hospodárske výpočty",
+        "short": "HVY"
+      },
+      "155926": {
+        "id": "155926",
+        "name": "Hospodárske výpočty a štatistika",
+        "short": "HOS"
+      },
+      "69731": {
+        "id": "69731",
+        "name": "chémia",
+        "short": "CHE"
+      },
+      "69733": {
+        "id": "69733",
+        "name": "informatika",
+        "short": "INF"
+      },
+      "69797": {
+        "id": "69797",
+        "name": "informatika a výpočtová technika",
+        "short": "IVT"
+      },
+      "69850": {
+        "id": "69850",
+        "name": "informatika v podnikaní",
+        "short": "IVP"
+      },
+      "69805": {
+        "id": "69805",
+        "name": "konštrukčné cvičenia",
+        "short": "KOC"
+      },
+      "69800": {
+        "id": "69800",
+        "name": "kontrola a meranie",
+        "short": "KOM"
+      },
+      "69810": {
+        "id": "69810",
+        "name": "konverzácia v anglickom jazyku",
+        "short": "KAJ"
+      },
+      "69811": {
+        "id": "69811",
+        "name": "konverzácia v nemeckom jazyku",
+        "short": "KNJ"
+      },
+      "84220": {
+        "id": "84220",
+        "name": "logistika",
+        "short": "LGG"
+      },
+      "155825": {
+        "id": "155825",
+        "name": "logistika v doprave",
+        "short": "DLG"
+      },
+      "69809": {
+        "id": "69809",
+        "name": "manažment a marketing",
+        "short": "MMR"
+      },
+      "69972": {
+        "id": "69972",
+        "name": "marketing",
+        "short": "MAR"
+      },
+      "69312": {
+        "id": "69312",
+        "name": "matematika",
+        "short": "MAT"
+      },
+      "69782": {
+        "id": "69782",
+        "name": "mechanika",
+        "short": "MEC"
+      },
+      "69824": {
+        "id": "69824",
+        "name": "mechanizačné zariadenia",
+        "short": "MEZ"
+      },
+      "72608": {
+        "id": "72608",
+        "name": "meranie a diagnostika",
+        "short": "MED"
+      },
+      "71175": {
+        "id": "71175",
+        "name": "meranie v strojárstve",
+        "short": "MVD"
+      },
+      "69730": {
+        "id": "69730",
+        "name": "náboženská výchova",
+        "short": "NBV"
+      },
+      "69790": {
+        "id": "69790",
+        "name": "náuka o materiáli",
+        "short": "NML"
+      },
+      "69311": {
+        "id": "69311",
+        "name": "nemecký jazyk",
+        "short": "NEJ"
+      },
+      "69957": {
+        "id": "69957",
+        "name": "nemecký jazyk",
+        "short": "NEJ2"
+      },
+      "69726": {
+        "id": "69726",
+        "name": "občianska náuka",
+        "short": "OBN"
+      },
+      "84230": {
+        "id": "84230",
+        "name": "obchodná korešpondencia",
+        "short": "OBK"
+      },
+      "69818": {
+        "id": "69818",
+        "name": "obchodná psychológia",
+        "short": "OPS"
+      },
+      "71138": {
+        "id": "71138",
+        "name": "obchodné právo",
+        "short": "OBP"
+      },
+      "69780": {
+        "id": "69780",
+        "name": "odborné kreslenie",
+        "short": "ODK"
+      },
+      "69812": {
+        "id": "69812",
+        "name": "odpadové hospodárstvo",
+        "short": "ODY"
+      },
+      "514817": {
+        "id": "514817",
+        "name": "operačné systémy",
+        "short": "OSY"
+      },
+      "540114": {
+        "id": "540114",
+        "name": "PC architektúra",
+        "short": "PAY"
+      },
+      "69851": {
+        "id": "69851",
+        "name": "písanie a úprava textu na počítači",
+        "short": "PUI"
+      },
+      "69682": {
+        "id": "69682",
+        "name": "praktická časť odbornej zložky",
+        "short": "PČOZ"
+      },
+      "69783": {
+        "id": "69783",
+        "name": "praktické cvičenia",
+        "short": "PRC"
+      },
+      "69740": {
+        "id": "69740",
+        "name": "právna náuka",
+        "short": "PRN"
+      },
+      "69791": {
+        "id": "69791",
+        "name": "prax",
+        "short": "PRA"
+      },
+      "71173": {
+        "id": "71173",
+        "name": "prax v odbore",
+        "short": "PXO"
+      },
+      "69817": {
+        "id": "69817",
+        "name": "preprava a zasielateľstvo",
+        "short": "PAZ"
+      },
+      "84219": {
+        "id": "84219",
+        "name": "prevádzka cestných vozidiel",
+        "short": "PCV"
+      },
+      "514816": {
+        "id": "514816",
+        "name": "programovanie",
+        "short": "PRO"
+      },
+      "69834": {
+        "id": "69834",
+        "name": "propagácia a reklama",
+        "short": "PGK"
+      },
+      "69795": {
+        "id": "69795",
+        "name": "psychológia",
+        "short": "PSY"
+      },
+      "543255": {
+        "id": "543255",
+        "name": "serverové technológie",
+        "short": "SXT"
+      },
+      "501316": {
+        "id": "501316",
+        "name": "sieťové technológie",
+        "short": "SIE"
+      },
+      "69309": {
+        "id": "69309",
+        "name": "slovenský jazyk a literatúra",
+        "short": "SJL"
+      },
+      "72451": {
+        "id": "72451",
+        "name": "služby cestovného ruchu",
+        "short": "SLC"
+      },
+      "501315": {
+        "id": "501315",
+        "name": "softvérové aplikácie",
+        "short": "SOA"
+      },
+      "155786": {
+        "id": "155786",
+        "name": "spoločenská komunikácia",
+        "short": "SPK"
+      },
+      "71163": {
+        "id": "71163",
+        "name": "spoločenský styk",
+        "short": "SPS"
+      },
+      "1": {
+        "id": "1",
+        "name": "správanie",
+        "short": "SPR"
+      },
+      "69792": {
+        "id": "69792",
+        "name": "strojárska konštrukcia",
+        "short": "STC"
+      },
+      "69781": {
+        "id": "69781",
+        "name": "strojárska technológia",
+        "short": "STT"
+      },
+      "71158": {
+        "id": "71158",
+        "name": "strojárske cvičenia",
+        "short": "STX"
+      },
+      "69778": {
+        "id": "69778",
+        "name": "strojníctvo",
+        "short": "STN"
+      },
+      "69806": {
+        "id": "69806",
+        "name": "technické cvičenia",
+        "short": "TCV"
+      },
+      "69777": {
+        "id": "69777",
+        "name": "technické kreslenie",
+        "short": "TCK"
+      },
+      "69816": {
+        "id": "69816",
+        "name": "technické materiály",
+        "short": "TMA"
+      },
+      "69848": {
+        "id": "69848",
+        "name": "technika administratívy",
+        "short": "TEA"
+      },
+      "79058": {
+        "id": "79058",
+        "name": "technika cestovného ruchu",
+        "short": "TCR"
+      },
+      "69813": {
+        "id": "69813",
+        "name": "technika jazdy",
+        "short": "TEJ"
+      },
+      "69833": {
+        "id": "69833",
+        "name": "technika obchodu",
+        "short": "TOH"
+      },
+      "69804": {
+        "id": "69804",
+        "name": "technológia",
+        "short": "TEC"
+      },
+      "71174": {
+        "id": "71174",
+        "name": "tekutinové mechanizmy",
+        "short": "TEZ"
+      },
+      "155785": {
+        "id": "155785",
+        "name": "telesná a športová výchova",
+        "short": "TSV"
+      },
+      "69701": {
+        "id": "69701",
+        "name": "telesná výchova",
+        "short": "TEV"
+      },
+      "69681": {
+        "id": "69681",
+        "name": "teoretická časť odbornej zložky",
+        "short": "TČOZ"
+      },
+      "72450": {
+        "id": "72450",
+        "name": "teória obchodu",
+        "short": "TEO"
+      },
+      "69739": {
+        "id": "69739",
+        "name": "tovaroznalectvo",
+        "short": "TVZ"
+      },
+      "69736": {
+        "id": "69736",
+        "name": "účtovníctvo",
+        "short": "UCT"
+      },
+      "71139": {
+        "id": "71139",
+        "name": "údržba a opravy vozidiel",
+        "short": "UOV"
+      },
+      "69825": {
+        "id": "69825",
+        "name": "udržiavanie a opravy",
+        "short": "UDO"
+      },
+      "72606": {
+        "id": "72606",
+        "name": "úvod do sveta práce",
+        "short": "USP"
+      },
+      "72756": {
+        "id": "72756",
+        "name": "výchova k manželstvu a rodičovstvu",
+        "short": "VMR"
+      },
+      "69835": {
+        "id": "69835",
+        "name": "výchova k podnikaniu",
+        "short": "VPD"
+      },
+      "69789": {
+        "id": "69789",
+        "name": "výpočtová technika",
+        "short": "VYT"
+      },
+      "69732": {
+        "id": "69732",
+        "name": "základy ekológie",
+        "short": "ZEK"
+      },
+      "69801": {
+        "id": "69801",
+        "name": "základy ekonomiky",
+        "short": "ZAN"
+      },
+      "69803": {
+        "id": "69803",
+        "name": "základy elektrotechniky a automatizácie",
+        "short": "ZEA"
+      },
+      "70169": {
+        "id": "70169",
+        "name": "základy logistiky",
+        "short": "ZKG"
+      },
+      "155806": {
+        "id": "155806",
+        "name": "základy programovania",
+        "short": "ZAP"
+      },
+      "601853": {
+        "id": "601853",
+        "name": "základy techniky",
+        "short": "ZTH"
+      },
+      "71153": {
+        "id": "71153",
+        "name": "životné prostredie",
+        "short": "ZIP"
+      }
+    },
+    "classrooms": {
+      "71420": {
+        "id": "71420",
+        "name": "1.B",
+        "short": "1.B",
+        "cb_hidden": false
+      },
+      "477725": {
+        "id": "477725",
+        "name": "102",
+        "short": "",
+        "cb_hidden": false
+      },
+      "477722": {
+        "id": "477722",
+        "name": "109",
+        "short": "",
+        "cb_hidden": false
+      },
+      "116931": {
+        "id": "116931",
+        "name": "2.C - 109",
+        "short": "2.C - 109",
+        "cb_hidden": false
+      },
+      "71422": {
+        "id": "71422",
+        "name": "2.E",
+        "short": "",
+        "cb_hidden": false
+      },
+      "221592": {
+        "id": "221592",
+        "name": "2.E",
+        "short": "2.E",
+        "cb_hidden": false
+      },
+      "390095": {
+        "id": "390095",
+        "name": "3.B",
+        "short": "3.B",
+        "cb_hidden": false
+      },
+      "71424": {
+        "id": "71424",
+        "name": "3.D",
+        "short": "3D",
+        "cb_hidden": false
+      },
+      "131276": {
+        "id": "131276",
+        "name": "3.E",
+        "short": "3.E",
+        "cb_hidden": false
+      },
+      "71429": {
+        "id": "71429",
+        "name": "4.B",
+        "short": "4.B",
+        "cb_hidden": false
+      },
+      "71425": {
+        "id": "71425",
+        "name": "č. 101 (II. E)",
+        "short": "",
+        "cb_hidden": false
+      },
+      "71423": {
+        "id": "71423",
+        "name": "č. 102 (IV. E)",
+        "short": "",
+        "cb_hidden": false
+      },
+      "477723": {
+        "id": "477723",
+        "name": "č. 105 (IV. E)",
+        "short": "",
+        "cb_hidden": false
+      },
+      "513509": {
+        "id": "513509",
+        "name": "č. 111 (III.A)",
+        "short": "",
+        "cb_hidden": false
+      },
+      "77020": {
+        "id": "77020",
+        "name": "č. 114",
+        "short": "114",
+        "cb_hidden": false
+      },
+      "116932": {
+        "id": "116932",
+        "name": "č. 201 (jazyková uč.)",
+        "short": "201",
+        "cb_hidden": false
+      },
+      "131278": {
+        "id": "131278",
+        "name": "č. 202 (III. A)",
+        "short": "",
+        "cb_hidden": false
+      },
+      "77019": {
+        "id": "77019",
+        "name": "č. 205 (IV. A)",
+        "short": "",
+        "cb_hidden": false
+      },
+      "477727": {
+        "id": "477727",
+        "name": "č. 207",
+        "short": "207",
+        "cb_hidden": false
+      },
+      "477718": {
+        "id": "477718",
+        "name": "č. 210",
+        "short": "210",
+        "cb_hidden": false
+      },
+      "477719": {
+        "id": "477719",
+        "name": "č. 213 (II. A)",
+        "short": "",
+        "cb_hidden": false
+      },
+      "408168": {
+        "id": "408168",
+        "name": "č.109 (III.C)",
+        "short": "109",
+        "cb_hidden": false
+      },
+      "477730": {
+        "id": "477730",
+        "name": "D28",
+        "short": "",
+        "cb_hidden": false
+      },
+      "69437": {
+        "id": "69437",
+        "name": "Etika",
+        "short": "ETI",
+        "cb_hidden": false
+      },
+      "477731": {
+        "id": "477731",
+        "name": "I.A",
+        "short": "I.A",
+        "cb_hidden": false
+      },
+      "585503": {
+        "id": "585503",
+        "name": "I.B",
+        "short": "I.B",
+        "cb_hidden": false
+      },
+      "585502": {
+        "id": "585502",
+        "name": "I.C",
+        "short": "I.C",
+        "cb_hidden": false
+      },
+      "477724": {
+        "id": "477724",
+        "name": "II.A ",
+        "short": "II.A",
+        "cb_hidden": false
+      },
+      "477729": {
+        "id": "477729",
+        "name": "II.B ",
+        "short": "II.B",
+        "cb_hidden": false
+      },
+      "131275": {
+        "id": "131275",
+        "name": "III.A",
+        "short": "III.A",
+        "cb_hidden": false
+      },
+      "71426": {
+        "id": "71426",
+        "name": "III.B ",
+        "short": "III.B ",
+        "cb_hidden": false
+      },
+      "477728": {
+        "id": "477728",
+        "name": "III.E",
+        "short": "III.E",
+        "cb_hidden": false
+      },
+      "408171": {
+        "id": "408171",
+        "name": "INF - 406",
+        "short": "INF - 406",
+        "cb_hidden": false
+      },
+      "408170": {
+        "id": "408170",
+        "name": "INF - 407",
+        "short": "INF - 407",
+        "cb_hidden": false
+      },
+      "489653": {
+        "id": "489653",
+        "name": "INF- 406 / 1.A ",
+        "short": "1.A ",
+        "cb_hidden": false
+      },
+      "477726": {
+        "id": "477726",
+        "name": "IT-modrá",
+        "short": "IT",
+        "cb_hidden": false
+      },
+      "489651": {
+        "id": "489651",
+        "name": "IV.A ",
+        "short": "IV.A ",
+        "cb_hidden": false
+      },
+      "221594": {
+        "id": "221594",
+        "name": "IV.C",
+        "short": "IV.C",
+        "cb_hidden": false
+      },
+      "71421": {
+        "id": "71421",
+        "name": "IV.E ",
+        "short": "IV.E ",
+        "cb_hidden": false
+      },
+      "81598": {
+        "id": "81598",
+        "name": "NB 404",
+        "short": "NB 404",
+        "cb_hidden": false
+      },
+      "478193": {
+        "id": "478193",
+        "name": "NB 404",
+        "short": "NB 404",
+        "cb_hidden": false
+      },
+      "71427": {
+        "id": "71427",
+        "name": "STT-211",
+        "short": "STT-211",
+        "cb_hidden": false
+      },
+      "390164": {
+        "id": "390164",
+        "name": "Zasadačka",
+        "short": "Zas",
+        "cb_hidden": false
+      }
+    },
+    "students": {
+      "562943": {
+        "id": "562943",
+        "classid": "562840",
+        "firstname": "Andrej",
+        "lastname": "Bajza",
+        "parent1id": "-1108",
+        "parent2id": "",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "1",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563071": {
+        "id": "563071",
+        "classid": "562840",
+        "firstname": "Martin",
+        "lastname": "Čiernik",
+        "parent1id": "-1615",
+        "parent2id": "-1323",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "2",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562955": {
+        "id": "562955",
+        "classid": "562840",
+        "firstname": "Filip",
+        "lastname": "Drábik",
+        "parent1id": "-1235",
+        "parent2id": "-1236",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "3",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562965": {
+        "id": "562965",
+        "classid": "562840",
+        "firstname": "Jakub",
+        "lastname": "Ďuriš",
+        "parent1id": "-1240",
+        "parent2id": "-1241",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "5",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "606157": {
+        "id": "606157",
+        "classid": "562840",
+        "firstname": "Timotej",
+        "lastname": "Fapšo",
+        "parent1id": "-1509",
+        "parent2id": "",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2020-09-01",
+        "dateto": "",
+        "numberinclass": "25",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562967": {
+        "id": "562967",
+        "classid": "562840",
+        "firstname": "Lukáš",
+        "lastname": "Fedor",
+        "parent1id": "-1243",
+        "parent2id": "-1581",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "6",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562969": {
+        "id": "562969",
+        "classid": "562840",
+        "firstname": "Marco",
+        "lastname": "Gachulinec",
+        "parent1id": "-1292",
+        "parent2id": "-1293",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "7",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562971": {
+        "id": "562971",
+        "classid": "562840",
+        "firstname": "Samuel",
+        "lastname": "Gachulinec",
+        "parent1id": "-1292",
+        "parent2id": "-1293",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "8",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562979": {
+        "id": "562979",
+        "classid": "562840",
+        "firstname": "Michal",
+        "lastname": "Hodža",
+        "parent1id": "-1296",
+        "parent2id": "-1297",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "9",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562981": {
+        "id": "562981",
+        "classid": "562840",
+        "firstname": "Lukáš",
+        "lastname": "Chovanec",
+        "parent1id": "-1127",
+        "parent2id": "-1325",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "10",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562987": {
+        "id": "562987",
+        "classid": "562840",
+        "firstname": "Ján",
+        "lastname": "Janiga",
+        "parent1id": "-1298",
+        "parent2id": "-1583",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "11",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562989": {
+        "id": "562989",
+        "classid": "562840",
+        "firstname": "Matej",
+        "lastname": "Justus",
+        "parent1id": "-1299",
+        "parent2id": "-1300",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "12",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562991": {
+        "id": "562991",
+        "classid": "562840",
+        "firstname": "Martin",
+        "lastname": "Kimlička",
+        "parent1id": "-1301",
+        "parent2id": "-1302",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "13",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562993": {
+        "id": "562993",
+        "classid": "562840",
+        "firstname": "Peter",
+        "lastname": "Kocúr",
+        "parent1id": "-1584",
+        "parent2id": "-1585",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "14",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "562995": {
+        "id": "562995",
+        "classid": "562840",
+        "firstname": "Benjamín",
+        "lastname": "Kojda",
+        "parent1id": "-1304",
+        "parent2id": "-1305",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "15",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563009": {
+        "id": "563009",
+        "classid": "562840",
+        "firstname": "Soňa",
+        "lastname": "Majštiníková",
+        "parent1id": "-1306",
+        "parent2id": "",
+        "parent3id": "",
+        "gender": "F",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "16",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563011": {
+        "id": "563011",
+        "classid": "562840",
+        "firstname": "Patrik",
+        "lastname": "Martinka",
+        "parent1id": "-1307",
+        "parent2id": "-1591",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "17",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563025": {
+        "id": "563025",
+        "classid": "562840",
+        "firstname": "Šimon",
+        "lastname": "Podolan",
+        "parent1id": "-1309",
+        "parent2id": "-1310",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "18",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563027": {
+        "id": "563027",
+        "classid": "562840",
+        "firstname": "Peter",
+        "lastname": "Rychtárik",
+        "parent1id": "-1311",
+        "parent2id": "-1598",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "19",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563029": {
+        "id": "563029",
+        "classid": "562840",
+        "firstname": "Matej",
+        "lastname": "Slávik",
+        "parent1id": "-1313",
+        "parent2id": "-1599",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "20",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563033": {
+        "id": "563033",
+        "classid": "562840",
+        "firstname": "Samuel",
+        "lastname": "Šubika",
+        "parent1id": "-1315",
+        "parent2id": "-1316",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "21",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563039": {
+        "id": "563039",
+        "classid": "562840",
+        "firstname": "Nicolas",
+        "lastname": "Zambori",
+        "parent1id": "-1156",
+        "parent2id": "",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "23",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      },
+      "563079": {
+        "id": "563079",
+        "classid": "562840",
+        "firstname": "Miroslav",
+        "lastname": "Židek",
+        "parent1id": "-1253",
+        "parent2id": "-1321",
+        "parent3id": "",
+        "gender": "M",
+        "datefrom": "2019-09-01",
+        "dateto": "",
+        "numberinclass": "24",
+        "number": "",
+        "odborid": 514551,
+        "zus_rcs_short": "",
+        "zus_rcs_note": "",
+        "isOut": false
+      }
+    },
+    "parents": {
+      "-1300": {
+        "id": "-1300",
+        "firstname": "Denisa",
+        "lastname": "Justusová Šumcová",
+        "gender": "F"
+      },
+      "-1299": {
+        "id": "-1299",
+        "firstname": "Eduard",
+        "lastname": "Justus",
+        "gender": "M"
+      }
+    },
+    "periods": [
+      {
+        "id": "0",
+        "name": "0",
+        "short": "0",
+        "starttime": "07:00",
+        "endtime": "07:45"
+      },
+      {
+        "id": "1",
+        "name": "1",
+        "short": "1",
+        "starttime": "07:50",
+        "endtime": "08:35"
+      },
+      {
+        "id": "2",
+        "name": "2",
+        "short": "2",
+        "starttime": "08:40",
+        "endtime": "09:25"
+      },
+      {
+        "id": "3",
+        "name": "3",
+        "short": "3",
+        "starttime": "09:35",
+        "endtime": "10:20"
+      },
+      {
+        "id": "4",
+        "name": "4",
+        "short": "4",
+        "starttime": "10:30",
+        "endtime": "11:15"
+      },
+      {
+        "id": "5",
+        "name": "5",
+        "short": "5",
+        "starttime": "11:20",
+        "endtime": "12:05"
+      },
+      {
+        "id": "6",
+        "name": "6",
+        "short": "6",
+        "starttime": "12:40",
+        "endtime": "13:25"
+      },
+      {
+        "id": "7",
+        "name": "7",
+        "short": "7",
+        "starttime": "13:30",
+        "endtime": "14:15"
+      },
+      {
+        "id": "8",
+        "name": "8",
+        "short": "8",
+        "starttime": "14:20",
+        "endtime": "15:05"
+      }
+    ],
+    "dayparts": {
+      "h0": {
+        "id": "h0",
+        "name": "ráno",
+        "short": "ráno",
+        "starttime": "06:00",
+        "endtime": "08:00"
+      },
+      "h1": {
+        "id": "h1",
+        "name": "doobeda",
+        "short": "doob.",
+        "starttime": "08:00",
+        "endtime": "12:00"
+      },
+      "h2": {
+        "id": "h2",
+        "name": "poobede",
+        "short": "poob.",
+        "starttime": "12:00",
+        "endtime": "16:00"
+      },
+      "h3": {
+        "id": "h3",
+        "name": "večer",
+        "short": "več.",
+        "starttime": "16:00",
+        "endtime": "20:00"
+      }
+    },
+    "absent_types": {
+      "-63": {
+        "id": "-63",
+        "name": "Dôležité osobné prekážky v práci",
+        "short": "DOPvP"
+      },
+      "-55": {
+        "id": "-55",
+        "name": "LV",
+        "short": "LV"
+      },
+      "-56": {
+        "id": "-56",
+        "name": "LVD",
+        "short": "LVD"
+      },
+      "-64": {
+        "id": "-64",
+        "name": "NV",
+        "short": "NV"
+      },
+      "-57": {
+        "id": "-57",
+        "name": "OBED",
+        "short": "OBED"
+      },
+      "-61": {
+        "id": "-61",
+        "name": "OČR",
+        "short": "OČR"
+      },
+      "-60": {
+        "id": "-60",
+        "name": "PN",
+        "short": "PN"
+      },
+      "-65": {
+        "id": "-65",
+        "name": "Práca na doma",
+        "short": "PnD"
+      },
+      "-58": {
+        "id": "-58",
+        "name": "SC",
+        "short": "SC"
+      },
+      "-62": {
+        "id": "-62",
+        "name": "Sviatok",
+        "short": "SV"
+      },
+      "-40": {
+        "id": "-40",
+        "name": "SZ",
+        "short": "SZ"
+      },
+      "-59": {
+        "id": "-59",
+        "name": "ZD",
+        "short": "ZD"
+      },
+      "-88": {
+        "id": "-88",
+        "name": "Etest",
+        "short": "Etest"
+      },
+      "-87": {
+        "id": "-87",
+        "name": "GS MS",
+        "short": "GS MS"
+      },
+      "-86": {
+        "id": "-86",
+        "name": "MS",
+        "short": "MS"
+      },
+      "-90": {
+        "id": "-90",
+        "name": "OLYMP",
+        "short": "OLYMP"
+      },
+      "-103": {
+        "id": "-103",
+        "name": "Pracovné voľno s náhradou mzdy, §141 odst.3 pís. c)",
+        "short": "PV §141 odst.3 pís. c)"
+      },
+      "-91": {
+        "id": "-91",
+        "name": "PZ  §142 ods.3 (100%)",
+        "short": "PZ  §142 ods.3 (100%)"
+      },
+      "-92": {
+        "id": "-92",
+        "name": "PZ §250 ods.6 (80%)",
+        "short": "PZ §250 ods.6 (80%)"
+      },
+      "-89": {
+        "id": "-89",
+        "name": "SOČ",
+        "short": "SOČ"
+      }
+    },
+    "substitution_types": {
+      "-42": {
+        "id": "-42",
+        "name": "Dozor",
+        "short": "Dozor"
+      },
+      "-41": {
+        "id": "-41",
+        "name": "Neznámy typ",
+        "short": "-"
+      },
+      "-43": {
+        "id": "-43",
+        "name": "Presun",
+        "short": "-\u003e"
+      }
+    },
+    "studentabsent_types": {
+      "-1": {
+        "id": "-1",
+        "name": "Neospravedlnená hodina",
+        "short": "n",
+        "color": "#E2ABB3",
+        "excuse_type": "n"
+      },
+      "-2": {
+        "id": "-2",
+        "name": "Ospravedlnená hodina",
+        "short": "o",
+        "color": "#CAEED7",
+        "excuse_type": "o"
+      },
+      "-3": {
+        "id": "-3",
+        "name": "Reprezentácia",
+        "short": "r",
+        "color": "#CEDAE2",
+        "excuse_type": "i"
+      }
+    },
+    "event_types": {
+      "ttcancel": {
+        "id": "ttcancel",
+        "name": "Vyučovacie voľno",
+        "color": "rgba(202, 245, 98,0.3)"
+      },
+      "holiday": {
+        "id": "holiday",
+        "name": "Sviatok",
+        "color": "rgba(202, 245, 98,0.3)"
+      },
+      "sholiday": {
+        "id": "sholiday",
+        "name": "Prázdniny",
+        "color": "rgba(202, 245, 98,0.3)"
+      },
+      "freeday": {
+        "id": "freeday",
+        "name": "Voľný deň",
+        "color": "rgba(202, 245, 98,0.3)"
+      },
+      "distant": {
+        "id": "distant",
+        "name": "Dištančná výučba",
+        "color": "rgba(199,237,255,0.3)"
+      },
+      "lesson": {
+        "id": "lesson",
+        "name": "Vyučovanie",
+        "color": "rgba(254,239,107,0.3)"
+      },
+      "plesson": {
+        "id": "plesson",
+        "name": "Projektové vyučovanie",
+        "color": "rgba(254,239,107,0.3)"
+      },
+      "rlesson": {
+        "id": "rlesson",
+        "name": "Doučovanie",
+        "color": "rgba(254,239,107,0.3)"
+      },
+      "ctlesson": {
+        "id": "ctlesson",
+        "name": "Hodina s triednym učiteľom",
+        "color": "rgba(254,239,107,0.3)"
+      },
+      "schoolevent": {
+        "id": "schoolevent",
+        "name": "Školská udalosť",
+        "color": "rgba(250,150,150,0.3)"
+      },
+      "trip": {
+        "id": "trip",
+        "name": "Školský výlet",
+        "color": "rgba(250,150,150,0.3)"
+      },
+      "culture": {
+        "id": "culture",
+        "name": "Kultúrne podujatie",
+        "color": "rgba(250,150,150,0.3)"
+      },
+      "excursion": {
+        "id": "excursion",
+        "name": "Exkurzia",
+        "color": "rgba(250,150,150,0.3)"
+      },
+      "ctevent": {
+        "id": "ctevent",
+        "name": "Udalosť s triednym učiteľom",
+        "color": "rgba(250,150,150,0.3)"
+      },
+      "testing": {
+        "id": "testing",
+        "name": "Skúšanie žiakov",
+        "color": "rgba(255, 189, 126,0.3)"
+      },
+      "bexam": {
+        "id": "bexam",
+        "name": "Veľká písomka",
+        "color": "rgba(255, 189, 126,0.3)"
+      },
+      "exam": {
+        "id": "exam",
+        "name": "Písomka",
+        "color": "rgba(255, 189, 126,0.3)"
+      },
+      "sexam": {
+        "id": "sexam",
+        "name": "Kratučký testík",
+        "color": "rgba(255, 189, 126,0.3)"
+      },
+      "oexam": {
+        "id": "oexam",
+        "name": "Ústne skúšanie",
+        "color": "rgba(255, 189, 126,0.3)"
+      },
+      "rexam": {
+        "id": "rexam",
+        "name": "Referát",
+        "color": "rgba(255, 189, 126,0.3)"
+      },
+      "pexam": {
+        "id": "pexam",
+        "name": "Projekt",
+        "color": "rgba(255, 189, 126,0.3)"
+      },
+      "meeting": {
+        "id": "meeting",
+        "name": "Míting učiteľov",
+        "color": "rgba(147,177,220,0.3)"
+      },
+      "bmeeting": {
+        "id": "bmeeting",
+        "name": "Klasifikačná porada",
+        "color": "rgba(147,177,220,0.3)"
+      },
+      "bookroom": {
+        "id": "bookroom",
+        "name": "Rezervovaná učebňa",
+        "color": "rgba(200,151,192,0.3)"
+      },
+      "changeroom": {
+        "id": "changeroom",
+        "name": "Zameniť učebňu",
+        "color": "rgba(200,151,192,0.3)"
+      },
+      "other": {
+        "id": "other",
+        "name": "Iná udalosť",
+        "color": "rgba(139,211,244,0.3)"
+      },
+      "other_safety": {
+        "id": "other_safety",
+        "name": "Poučenie o bezpečnosti",
+        "color": "rgba(139,211,244,0.3)"
+      },
+      "parentsevening": {
+        "id": "parentsevening",
+        "name": "Rodičovské združenie",
+        "color": "rgba(139,211,244,0.3)"
+      },
+      "other_cb": {
+        "id": "other_cb",
+        "name": "Triedna kniha",
+        "color": "rgba(139,211,244,0.3)"
+      },
+      "representation": {
+        "id": "representation",
+        "name": "Reprezentácia",
+        "color": "rgba(139,211,244,0.3)"
+      }
+    },
+    "process_types": {
+      "teacher_leave": {
+        "name": "Žiadosť o uvoľnenie zamestnanca",
+        "user": "Ucitel",
+        "dataColumns": [
+          "datefrom",
+          "dateto",
+          "period",
+          "durationperiods",
+          "starttime",
+          "endtime",
+          "removeMenuEvidence",
+          "educloudids"
+        ],
+        "id": "teacher_leave",
+        "enabled": false
+      },
+      "teacher_leave_dayoff": {
+        "name": "Žiadosť o uvoľnenie zamestnanca - dovolenka",
+        "user": "Ucitel",
+        "dataColumns": [
+          "datefrom",
+          "dateto",
+          "period",
+          "durationperiods",
+          "starttime",
+          "endtime",
+          "removeMenuEvidence",
+          "educloudids"
+        ],
+        "id": "teacher_leave_dayoff",
+        "enabled": false
+      },
+      "teacher_leave_compensatory": {
+        "name": "Žiadosť o uvoľnenie zamestnanca - náhradné voľno",
+        "user": "Ucitel",
+        "dataColumns": [
+          "datefrom",
+          "dateto",
+          "period",
+          "durationperiods",
+          "starttime",
+          "endtime",
+          "removeMenuEvidence",
+          "educloudids"
+        ],
+        "id": "teacher_leave_compensatory",
+        "enabled": false
+      },
+      "teacher_leave_workday": {
+        "name": "Žiadosť o uvoľnenie zamestnanca - pracovné voľno",
+        "user": "Ucitel",
+        "dataColumns": [
+          "datefrom",
+          "dateto",
+          "period",
+          "durationperiods",
+          "starttime",
+          "endtime",
+          "removeMenuEvidence",
+          "educloudids"
+        ],
+        "id": "teacher_leave_workday",
+        "enabled": false
+      },
+      "teacher_leave_doctor": {
+        "name": "Žiadosť o uvoľnenie zamestnanca - lekár ",
+        "user": "Ucitel",
+        "dataColumns": [
+          "datefrom",
+          "dateto",
+          "period",
+          "durationperiods",
+          "starttime",
+          "endtime",
+          "removeMenuEvidence",
+          "educloudids"
+        ],
+        "id": "teacher_leave_doctor",
+        "enabled": false
+      },
+      "teacher_absent": {
+        "name": "Oznam o chorobe",
+        "isSimpleWorkflow": true,
+        "user": "Ucitel",
+        "dataColumns": [
+          "datefrom",
+          "dateto",
+          "period",
+          "durationperiods",
+          "starttime",
+          "endtime",
+          "removeMenuEvidence",
+          "educloudids"
+        ],
+        "id": "teacher_absent",
+        "enabled": false
+      },
+      "teacher_shopping": {
+        "name": "Žiadosť o povolenie nákupu",
+        "user": "Ucitel",
+        "textOptional": true,
+        "id": "teacher_shopping",
+        "enabled": false,
+        "dataColumns": [
+          "name",
+          "price",
+          "datetext",
+          "link",
+          "educloudids"
+        ]
+      },
+      "teacher_cash": {
+        "name": "Žiadosť o preplatenie nákupu",
+        "user": "Ucitel",
+        "textOptional": true,
+        "id": "teacher_cash",
+        "enabled": false,
+        "dataColumns": [
+          "name",
+          "price",
+          "educloudids"
+        ]
+      },
+      "classroom_problem": {
+        "name": "Nahlásiť poruchu/problém v učebni",
+        "user": "Ucitel",
+        "isAdvancedWorkflow": true,
+        "id": "classroom_problem",
+        "enabled": false,
+        "dataColumns": [
+          "classroomid",
+          "priority"
+        ]
+      },
+      "teacher_infectivity": {
+        "name": "Vyhlásenie o bezinfekčnosti zamestnanca do 29. 10. 2020",
+        "dateto": "2020-10-29",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "id": "teacher_infectivity",
+        "enabled": false,
+        "dataColumns": [
+          "date",
+          "confirm",
+          "confirm_not"
+        ]
+      },
+      "teacher_infectivity_20201102": {
+        "name": "Vyhlásenie o bezinfekčnosti zamestnanca do 7. 11. 2020",
+        "dateto": "2020-11-07",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "teacher_infectivity_20201102",
+        "enabled": true
+      },
+      "teacher_infectivity_20201109_testovane": {
+        "name": "Vyhlásenie o bezinfekčnosti zamestnanca - Testované okresy do 15. 11. 2020",
+        "dateto": "2020-11-15",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "teacher_infectivity_20201109_testovane",
+        "enabled": true
+      },
+      "teacher_infectivity_20201109_netestovane": {
+        "name": "Vyhlásenie o bezinfekčnosti zamestnanca - Netestované okresy do 15. 11. 2020",
+        "dateto": "2020-11-15",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "teacher_infectivity_20201109_netestovane",
+        "enabled": true
+      },
+      "teacher_infectivity_20201112": {
+        "name": "Vyhlásenie o bezinfekčnosti zamestnanca do 10. 1. 2021",
+        "dateto": "2021-01-10",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "id": "teacher_infectivity_20201112",
+        "enabled": true,
+        "dataColumns": [
+          "date",
+          "confirm",
+          "confirm_not"
+        ]
+      },
+      "teacher_infectivity_20210111": {
+        "name": "Vyhlásenie o bezinfekčnosti zamestnanca do 7. 2. 2021",
+        "dateto": "2021-02-07",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "educloudids"
+        ],
+        "id": "teacher_infectivity_20210111",
+        "enabled": true
+      },
+      "teacher_infectivity_20210208": {
+        "name": "Vyhlásenie o bezinfekčnosti - (9a) zamestnanec\r\n do 25. 4. 2021",
+        "dateto": "2021-04-25",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "id": "teacher_infectivity_20210208",
+        "enabled": true
+      },
+      "teacher_infectivity_20210426": {
+        "name": "Vyhlásenie o bezinfekčnosti - (9a) zamestnanec\r\n do 16. 5. 2021",
+        "dateto": "2021-05-16",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "id": "teacher_infectivity_20210426",
+        "enabled": true
+      },
+      "teacher_infectivity_9a_20210503": {
+        "datefrom": "2021-05-03",
+        "dateto": "2021-05-16",
+        "name": "Vyhlásenie o bezinfekčnosti - (9a) zamestnanec\r\n (bordový okres, nočná služba) - Platí od 3. 5. 2021 do 16. 5. 2021",
+        "user": "Ucitel",
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "id": "teacher_infectivity_9a_20210503",
+        "enabled": true
+      },
+      "teacher_infectivity_9c_20210503": {
+        "datefrom": "2021-05-03",
+        "dateto": "2021-05-16",
+        "name": "Vyhlásenie o bezinfekčnosti - (9c) zamestnanec (ružový a červený okres) - Platí od 3. 5. 2021 do 16. 5. 2021",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "teacher_infectivity_9c_20210503",
+        "enabled": true
+      },
+      "teacher_infectivity_2_20210517": {
+        "datefrom": "2021-05-17",
+        "name": "Vyhlásenie o bezinfekčnosti zamestnanca - Platí od 17. 5. 2021",
+        "user": "Ucitel",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "teacher_infectivity_2_20210517",
+        "enabled": true
+      },
+      "student_leave": {
+        "name": "Žiadosť o uvoľnenie žiaka",
+        "user": "Student",
+        "dataColumns": [
+          "datefrom",
+          "dateto",
+          "period",
+          "durationperiods",
+          "removeMenuEvidence",
+          "educloudids"
+        ],
+        "id": "student_leave",
+        "enabled": false
+      },
+      "student_gdpr_general": {
+        "name": "Informovaný súhlas so spracovaním osobných údajov",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "id": "student_gdpr_general",
+        "enabled": false,
+        "dataColumns": [
+          "date"
+        ],
+        "textOptional": true
+      },
+      "student_gdpr_media": {
+        "name": "Informovaný súhlas so zverejnovaním fotografii a videozáznamov",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "id": "student_gdpr_media",
+        "enabled": false,
+        "dataColumns": [
+          "confirm_web",
+          "confirm_noticeboard",
+          "confirm_archive",
+          "confirm_publish",
+          "confirm_photo",
+          "confirm_presentation",
+          "confirm_social",
+          "date"
+        ],
+        "textOptional": true
+      },
+      "student_infectivity": {
+        "name": "Vyhlásenie o bezinfekčnosti do 29. 10. 2020",
+        "dateto": "2020-10-29",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity",
+        "enabled": true
+      },
+      "student_infectivity_20201102": {
+        "name": "Vyhlásenie o bezinfekčnosti do 7. 11. 2020",
+        "dateto": "2020-11-07",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_20201102",
+        "enabled": true
+      },
+      "student_infectivity_20201109_testovane": {
+        "name": "Vyhlásenie o bezinfekčnosti - Testované okresy do 15. 11. 2020",
+        "dateto": "2020-11-15",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_20201109_testovane",
+        "enabled": true
+      },
+      "student_infectivity_20201109_netestovane": {
+        "name": "Vyhlásenie o bezinfekčnosti - Netestované okresy do 15. 11. 2020",
+        "dateto": "2020-11-15",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_20201109_netestovane",
+        "enabled": true
+      },
+      "student_infectivity_20201112": {
+        "name": "Vyhlásenie o bezinfekčnosti do 10. 1. 2021",
+        "dateto": "2021-01-10",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_20201112",
+        "enabled": true
+      },
+      "student_infectivity_20201206": {
+        "name": "Vyhlásenie o bezinfekčnosti: ZŠ 5-9, SŠ do 10. 1. 2021",
+        "dateto": "2021-01-10",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "educloudids"
+        ],
+        "id": "student_infectivity_20201206",
+        "enabled": true
+      },
+      "student_infectivity_zs_20210111": {
+        "name": "Vyhlásenie o bezinfekčnosti: MŠ a ZŠ I.stupeň do 7. 2. 2021",
+        "dateto": "2021-02-07",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_zs_20210111",
+        "enabled": true
+      },
+      "student_infectivity_adult_20210111": {
+        "name": "Vyhlásenie o bezinfekčnosti: Plnoletý žiak do 7. 2. 2021",
+        "dateto": "2021-02-07",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "educloudids"
+        ],
+        "id": "student_infectivity_adult_20210111",
+        "enabled": true
+      },
+      "student_infectivity_20210111": {
+        "name": "Vyhlásenie o bezinfekčnosti: II. stupeň ZŠ, SŠ do 7. 2. 2021",
+        "dateto": "2021-02-07",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception_parent",
+          "exception_student",
+          "educloudids"
+        ],
+        "id": "student_infectivity_20210111",
+        "enabled": true
+      },
+      "student_infectivity_zs_20210208": {
+        "name": " Vyhlásenie o bezinfekčnosti - (11a) zák. zástupca (MŠ, I. stupeň ZŠ) do 25. 4. 2021",
+        "dateto": "2021-04-25",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "id": "student_infectivity_zs_20210208",
+        "enabled": true
+      },
+      "student_infectivity_zs_20210308": {
+        "name": "Vyhlásenie o bezinfekčnosti - (11c) zák. zástupca/prezenčný výkon práce (MŠ, I. stupeň ZŠ), platné od 8.3.2021 do 25. 4. 2021",
+        "dateto": "2021-04-25",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "id": "student_infectivity_zs_20210308",
+        "enabled": true
+      },
+      "student_infectivity_20210208": {
+        "name": "Vyhlásenie o bezinfekčnosti - (8a) žiak a zák. zástupca (II. stupeň ZŠ, SŠ) do 25. 4. 2021",
+        "dateto": "2021-04-25",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception_parent",
+          "date_test_parent",
+          "exception_student",
+          "date_test_student",
+          "educloudids"
+        ],
+        "id": "student_infectivity_20210208",
+        "enabled": true
+      },
+      "student_infectivity_adult_20210208": {
+        "name": "Vyhlásenie o bezinfekčnosti - (10a) Plnoletý žiak do 25. 4. 2021",
+        "dateto": "2021-04-25",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "id": "student_infectivity_adult_20210208",
+        "enabled": true
+      },
+      "student_infectivity_20210426": {
+        "name": "Vyhlásenie o bezinfekčnosti - (8a) žiak a zák. zástupca (II. stupeň ZŠ, SŠ) do 28. 4. 2021",
+        "user": "Student",
+        "dateto": "2021-04-28",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception_parent",
+          "date_test_parent",
+          "exception_student",
+          "date_test_student",
+          "educloudids"
+        ],
+        "id": "student_infectivity_20210426",
+        "enabled": true
+      },
+      "student_infectivity_adult_20210426": {
+        "dateto": "2021-05-16",
+        "name": "Vyhlásenie o bezinfekčnosti - (10a) Plnoletý žiak do 16. 5. 2021",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "id": "student_infectivity_adult_20210426",
+        "enabled": true
+      },
+      "student_infectivity_zs_20210426": {
+        "dateto": "2021-05-16",
+        "name": " Vyhlásenie o bezinfekčnosti - (11a) zák. zástupca (MŠ, I. stupeň ZŠ) do 16. 5. 2021",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date",
+          "exception",
+          "date_test",
+          "educloudids"
+        ],
+        "id": "student_infectivity_zs_20210426",
+        "enabled": true
+      },
+      "student_infectivity_8_20210503": {
+        "name": "Vyhlásenie o bezinfekčnosti - (8) žiak a zákonný zástupca - Platí od 3. 5. 2021 do 16. 5. 2021",
+        "dateto": "2021-05-16",
+        "datefrom": "2021-05-03",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_8_20210503",
+        "enabled": true
+      },
+      "student_infectivity_10a_20210503": {
+        "datefrom": "2021-05-03",
+        "dateto": "2021-05-16",
+        "name": "Vyhlásenie o bezinfekčnosti - (10a) Plnoletý žiak - Platí od 3. 5. 2021 do 16. 5. 2021",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_10a_20210503",
+        "enabled": true
+      },
+      "student_infectivity_4_20210517": {
+        "datefrom": "2021-05-17",
+        "name": "Vyhlásenie o bezinfekčnosti - Platí od 17. 5. 2021",
+        "user": "Student",
+        "isSimpleWorkflow": true,
+        "textOptional": true,
+        "dataColumns": [
+          "date"
+        ],
+        "id": "student_infectivity_4_20210517",
+        "enabled": true
+      }
+    },
+    "process_states": {
+      "1": {
+        "name": "odovzdaná",
+        "next": {
+          "2": "Schváliť",
+          "3": "Zamietnuť"
+        },
+        "icon": "/process/pics/icons8-sheet-of-paper_16.png",
+        "color": "aqua",
+        "simple": {
+          "next": {
+            "2": "Akceptovať"
+          }
+        },
+        "advanced": {
+          "next": {
+            "2": "Akceptovať",
+            "3": "Zamietnuť"
+          }
+        },
+        "id": 1
+      },
+      "2": {
+        "name": "schválená",
+        "next": {
+          "1": "Zrušiť schválenie"
+        },
+        "icon": "/process/pics/icons8-ok_16.png",
+        "color": "green",
+        "simple": {
+          "name": "Akceptované",
+          "next": []
+        },
+        "advanced": {
+          "name": "Akceptované",
+          "next": {
+            "4": "Označiť ako vybavené",
+            "1": "Zrušiť schválenie"
+          }
+        },
+        "id": 2
+      },
+      "3": {
+        "name": "zamietnutá",
+        "icon": "/process/pics/icons8-cancel_16.png",
+        "color": "red",
+        "next": {
+          "1": "Zrušiť zamietnutie"
+        },
+        "id": 3
+      },
+      "4": {
+        "name": "hotovo",
+        "icon": "/global/pics/ui/settings_16.png",
+        "color": "blue",
+        "id": 4
+      }
+    },
+    "allDoneBefore": "2020-08-17 13:27:28",
+    "isStudentAdult": false,
+    "plans": [],
+    "planids": [],
+    "ospravedlnenkyEnabled": true,
+    "homeworksEnabled": true,
+    "useNewNoticeboards": true,
+    "jeZUS": false
+  },
+  "isLoginSkin": false,
+  "vyucovacieDni": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "userrow": {
+    "UserID": "Student562989",
+    "StudentID": "562989",
+    "p_meno": "Matej",
+    "p_priezvisko": "Justus",
+    "p_www_login": "MatejJustus",
+    "p_mail": "maco.justus@gmail.com",
+    "p_pohlavie": "1",
+    "TriedaID": "562840"
+  },
+  "buttons": [
+    {
+      "action": "/timeline/",
+      "title": "Správy",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/spravy2.png",
+      "typ": "news",
+      "bgColor": "#f39c12"
+    },
+    {
+      "action": "/dashboard/eb.php?mode\u003dttday",
+      "title": "Triedna kniha",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/triednakniha.png",
+      "typ": "dailyplan",
+      "bgColor": "#3498db",
+      "btngroup": "eb"
+    },
+    {
+      "action": "/znamky/",
+      "title": "Známky",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/grades.png",
+      "typ": "grades",
+      "bgColor": "#e74c3c",
+      "btngroup": "eb"
+    },
+    {
+      "action": "/elearning/?cmd\u003dPlanBrowser",
+      "title": "Učivo",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/pripravy.png",
+      "typ": "pripravy",
+      "bgColor": "#2980b9"
+    },
+    {
+      "action": "/dashboard/eb.php?mode\u003dexam\u0026filterTab\u003dworks",
+      "title": "DÚ / písomky",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/homeworks.png",
+      "typ": "homework",
+      "bgColor": "#8e44ad"
+    },
+    {
+      "action": "/elearning/?cmd\u003dEtestCreator\u0026cspohladStart\u003dtests",
+      "title": "Výsledky",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/elearning.png",
+      "typ": "elearning",
+      "bgColor": "#3db1e6"
+    },
+    {
+      "action": "/dashboard/eb.php?mode\u003dtimetable",
+      "title": "Rozvrh",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/schedule.png",
+      "typ": "timetable",
+      "bgColor": "#2980b9"
+    },
+    {
+      "action": "/dashboard/eb.php?mode\u003dsubstitution",
+      "title": "Suplovanie",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/substitution.png",
+      "typ": "substitution",
+      "bgColor": "#e74c3c"
+    },
+    {
+      "action": "/contest/?",
+      "title": "Súťaže 2021/2022",
+      "subtitle": "iBobor, Pytagoriáda, Olympiáda, ...",
+      "icon": "/user/pics/buttons/maturita.png",
+      "typ": "contest",
+      "cssClass": ""
+    },
+    {
+      "action": "/dashboard/eb.php?mode\u003dattendance",
+      "title": "Moja dochádzka",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/attendance.png",
+      "typ": "attendance",
+      "bgColor": "#16a085"
+    },
+    {
+      "action": "/signin/?cmd\u003dSigninHome",
+      "title": "Prihlasovanie",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/signin.png",
+      "typ": "signin",
+      "bgColor": "#d35400"
+    },
+    {
+      "action": "/menu/",
+      "title": "Školská jedáleň",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/jedalen.png",
+      "typ": "strava",
+      "bgColor": "#aa72c1"
+    },
+    {
+      "action": "/platby/",
+      "title": "Platby",
+      "subtitle": "",
+      "subtitleData": {
+        "text": ""
+      },
+      "icon": "/platby/pics/payment_128.png",
+      "typ": "platby"
+    },
+    {
+      "action": "/timeline/?cmd\u003dnoticeboard\u0026noticeboard\u003d\u0026pohlad\u003dphotos",
+      "title": "Fotky",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/nastenka_photos.png",
+      "typ": "nastenka_photos",
+      "bgColor": "#d35400"
+    },
+    {
+      "action": "/timeline/?cmd\u003dnoticeboard\u0026noticeboard\u003d\u0026pohlad\u003dall",
+      "title": "Nástenka",
+      "subtitle": "",
+      "icon": "/user/pics/buttons/nastenka.png",
+      "typ": "nastenka",
+      "bgColor": "#d35400"
+    },
+    {
+      "action": "/bb/?cmd\u003dBBList",
+      "title": "Interaktívne hodiny",
+      "subtitle": "",
+      "typ": "bb",
+      "bgColor": "#d35400"
+    }
+  ],
+  "postUrl": "/user/?jwid\u003djw05ace615\u0026",
+  "eventTypes": [
+    {
+      "id": "ttcancel",
+      "name": "Vyučovacie voľno",
+      "ttcancel": true,
+      "publish": "calendar",
+      "nocustomtime": true,
+      "noclassallclasses": true,
+      "hidefields": [
+        "subjectid",
+        "teacherids",
+        "classroomids",
+        "studentids"
+      ],
+      "dp": true,
+      "d_privacy": "public",
+      "color_priority": 3,
+      "color_class": "holiday",
+      "color": "202, 245, 98"
+    },
+    {
+      "id": "holiday",
+      "c": "ttcancel",
+      "name": "Sviatok",
+      "allday": true,
+      "ttcancel": true,
+      "publish": "calendar",
+      "noclassallclasses": true,
+      "hidefields": [
+        "subjectid",
+        "classids",
+        "teacherids",
+        "classroomids"
+      ],
+      "dp": true,
+      "d_privacy": "public",
+      "color_priority": 10,
+      "color_class": "holiday"
+    },
+    {
+      "id": "sholiday",
+      "c": "ttcancel",
+      "name": "Prázdniny",
+      "allday": true,
+      "ttcancel": true,
+      "publish": "calendar",
+      "noclassallclasses": true,
+      "hidefields": [
+        "subjectid",
+        "classids",
+        "teacherids",
+        "classroomids"
+      ],
+      "dp": true,
+      "d_privacy": "public",
+      "color_priority": 10,
+      "color_class": "holiday"
+    },
+    {
+      "id": "freeday",
+      "c": "ttcancel",
+      "name": "Voľný deň",
+      "allday": true,
+      "ttcancel": true,
+      "publish": "calendar",
+      "noclassallclasses": true,
+      "hidefields": [
+        "subjectid",
+        "classids",
+        "teacherids",
+        "classroomids"
+      ],
+      "dp": true,
+      "d_privacy": "public",
+      "color_priority": 10,
+      "color_class": "holiday"
+    },
+    {
+      "id": "distant",
+      "name": "Dištančná výučba",
+      "publish": "calendar",
+      "hidefields": [
+        "subjectid",
+        "teacherids",
+        "classroomids",
+        "groupnames",
+        "starttime"
+      ],
+      "classrequired": true,
+      "dp": true,
+      "d_privacy": "public",
+      "color_priority": 5,
+      "color": "199,237,255"
+    },
+    {
+      "id": "lesson",
+      "name": "Vyučovanie",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "lesson": true,
+      "d_privacy": "students",
+      "color": "254,239,107",
+      "d_ttcancel": false
+    },
+    {
+      "id": "plesson",
+      "c": "lesson",
+      "name": "Projektové vyučovanie",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "lesson": true,
+      "d_privacy": "students",
+      "d_ttcancel": false
+    },
+    {
+      "id": "rlesson",
+      "c": "lesson",
+      "name": "Doučovanie",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "lesson": true,
+      "d_privacy": "students",
+      "d_ttcancel": false
+    },
+    {
+      "id": "ctlesson",
+      "c": "lesson",
+      "name": "Hodina s triednym učiteľom",
+      "ttcancel": true,
+      "ctcan": true,
+      "classrequired": true,
+      "nocustomtime": true,
+      "publish": "calendar",
+      "hidefields": [
+        "teacherids",
+        "classroomids",
+        "groupnames",
+        "studentids"
+      ],
+      "dp": true,
+      "lesson": true,
+      "attendance": true,
+      "d_privacy": "public",
+      "ctevent": true
+    },
+    {
+      "id": "schoolevent",
+      "name": "Školská udalosť",
+      "dp": true,
+      "attendance": true,
+      "publish": "calendar",
+      "d_privacy": "students",
+      "d_ttcancel": false,
+      "color": "250,150,150",
+      "d_ctevent": false
+    },
+    {
+      "id": "trip",
+      "c": "schoolevent",
+      "name": "Školský výlet",
+      "dp": true,
+      "attendance": true,
+      "publish": "calendar",
+      "d_privacy": "students",
+      "d_ttcancel": false,
+      "d_ctevent": false
+    },
+    {
+      "id": "culture",
+      "c": "schoolevent",
+      "name": "Kultúrne podujatie",
+      "dp": true,
+      "attendance": true,
+      "publish": "calendar",
+      "d_privacy": "students",
+      "d_ttcancel": false,
+      "d_ctevent": false
+    },
+    {
+      "id": "excursion",
+      "c": "schoolevent",
+      "name": "Exkurzia",
+      "dp": true,
+      "attendance": true,
+      "publish": "calendar",
+      "d_privacy": "students",
+      "d_ttcancel": false,
+      "d_ctevent": false
+    },
+    {
+      "id": "ctevent",
+      "c": "schoolevent",
+      "name": "Udalosť s triednym učiteľom",
+      "classrequired": true,
+      "dp": true,
+      "attendance": true,
+      "publish": "calendar",
+      "d_privacy": "students",
+      "d_ttcancel": false,
+      "hidefields": [
+        "teacherids",
+        "groupnames",
+        "studentids"
+      ],
+      "ctevent": true
+    },
+    {
+      "id": "testing",
+      "name": "Skúšanie žiakov",
+      "publish": "exam",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "color_priority": 5,
+      "color_class": "exam",
+      "color": "255, 189, 126"
+    },
+    {
+      "id": "bexam",
+      "c": "testing",
+      "name": "Veľká písomka",
+      "publish": "exam",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "d_privacy": "students",
+      "color_priority": 5,
+      "color_class": "exam"
+    },
+    {
+      "id": "exam",
+      "c": "testing",
+      "name": "Písomka",
+      "publish": "exam",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "color_priority": 5,
+      "color_class": "exam"
+    },
+    {
+      "id": "sexam",
+      "c": "testing",
+      "name": "Kratučký testík",
+      "publish": "exam",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "d_privacy": "students",
+      "color_priority": 5,
+      "color_class": "exam"
+    },
+    {
+      "id": "oexam",
+      "c": "testing",
+      "name": "Ústne skúšanie",
+      "publish": "exam",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "d_privacy": "students",
+      "color_priority": 5,
+      "color_class": "exam"
+    },
+    {
+      "id": "rexam",
+      "c": "testing",
+      "name": "Referát",
+      "publish": "exam",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "d_privacy": "students",
+      "color_priority": 5,
+      "color_class": "exam"
+    },
+    {
+      "id": "pexam",
+      "c": "testing",
+      "name": "Projekt",
+      "publish": "exam",
+      "subjectrequired": true,
+      "classrequired": true,
+      "dp": true,
+      "d_privacy": "students",
+      "color_priority": 5,
+      "color_class": "exam"
+    },
+    {
+      "id": "meeting",
+      "name": "Míting učiteľov",
+      "hidefields": [
+        "classids"
+      ],
+      "teacherrequired": true,
+      "dp": true,
+      "d_privacy": "private",
+      "color": "147,177,220"
+    },
+    {
+      "id": "bmeeting",
+      "c": "meeting",
+      "name": "Klasifikačná porada",
+      "hidefields": [
+        "classids"
+      ],
+      "teacherrequired": true,
+      "dp": true,
+      "d_privacy": "private"
+    },
+    {
+      "id": "bookroom",
+      "name": "Rezervovaná učebňa",
+      "hidefields": [
+        "classids",
+        "subjectid"
+      ],
+      "teacherrequired": true,
+      "classroomrequired": true,
+      "dp": true,
+      "d_privacy": "private",
+      "color": "200,151,192"
+    },
+    {
+      "id": "changeroom",
+      "c": "bookroom",
+      "name": "Zameniť učebňu",
+      "hidefields": [
+        "classids",
+        "subjectid"
+      ],
+      "teacherrequired": true,
+      "classroomrequired": true,
+      "d_privacy": "private"
+    },
+    {
+      "id": "other",
+      "name": "Iná udalosť",
+      "publish": "calendar",
+      "dp": true,
+      "d_privacy": "students",
+      "color": "139,211,244"
+    },
+    {
+      "id": "other_safety",
+      "c": "other",
+      "name": "Poučenie o bezpečnosti",
+      "publish": "calendar",
+      "dp": true,
+      "attendance": true,
+      "d_privacy": "students",
+      "d_ttcancel": false
+    },
+    {
+      "id": "parentsevening",
+      "c": "other",
+      "name": "Rodičovské združenie",
+      "publish": "calendar",
+      "noclassallclasses": true,
+      "hidefields": [
+        "subjectid",
+        "classroomids"
+      ],
+      "dp": true,
+      "d_privacy": "public"
+    },
+    {
+      "id": "other_cb",
+      "c": "other",
+      "name": "Triedna kniha",
+      "dp": true,
+      "classrequired": true,
+      "hidefields": [
+        "classroomids",
+        "students"
+      ],
+      "d_privacy": "private"
+    },
+    {
+      "id": "representation",
+      "c": "other",
+      "name": "Reprezentácia",
+      "dp": true,
+      "classrequired": true,
+      "d_privacy": "public",
+      "attendance": true
+    }
+  ],
+  "userid": "Student562989",
+  "userGroups": [
+    "*",
+    "Student562989",
+    "Student*",
+    "StudentOnly*",
+    "StudentOnly562989",
+    "Trieda562840",
+    "StudTrieda562840"
+  ],
+  "dp": {
+    "dates": {
+      "2021-08-17": {
+        "plan": [
+          {
+            "type": "period",
+            "uniperiod": "0",
+            "period": "0",
+            "periodorbreak": "00P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "1",
+            "period": "1",
+            "periodorbreak": "01P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "2",
+            "period": "2",
+            "periodorbreak": "02P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "3",
+            "period": "3",
+            "periodorbreak": "03P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "4",
+            "period": "4",
+            "periodorbreak": "04P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "5",
+            "period": "5",
+            "periodorbreak": "05P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "6",
+            "period": "6",
+            "periodorbreak": "06P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "7",
+            "period": "7",
+            "periodorbreak": "07P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "8",
+            "period": "8",
+            "periodorbreak": "08P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          }
+        ],
+        "student_absents": []
+      },
+      "2021-08-18": {
+        "plan": [
+          {
+            "type": "period",
+            "uniperiod": "0",
+            "period": "0",
+            "periodorbreak": "00P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "1",
+            "period": "1",
+            "periodorbreak": "01P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "2",
+            "period": "2",
+            "periodorbreak": "02P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "3",
+            "period": "3",
+            "periodorbreak": "03P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "4",
+            "period": "4",
+            "periodorbreak": "04P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "5",
+            "period": "5",
+            "periodorbreak": "05P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "6",
+            "period": "6",
+            "periodorbreak": "06P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "7",
+            "period": "7",
+            "periodorbreak": "07P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          },
+          {
+            "type": "period",
+            "uniperiod": "8",
+            "period": "8",
+            "periodorbreak": "08P",
+            "header": [],
+            "flags": [],
+            "fields": [],
+            "classids": [],
+            "igroupid": "",
+            "groupsubjectids": [],
+            "groupnames": [],
+            "teacherids": [],
+            "classroomids": []
+          }
+        ],
+        "student_absents": []
+      }
+    },
+    "year": 2021,
+    "user_dp_cached_date": "2021-08-17 13:27:25"
+  },
+  "meninyDnes": "Milica",
+  "meninyZajtra": "Elena Helena",
+  "zvonenia": [
+    {
+      "id": "0",
+      "name": "0",
+      "short": "0",
+      "starttime": "07:00",
+      "endtime": "07:45"
+    },
+    {
+      "id": "1",
+      "name": "1",
+      "short": "1",
+      "starttime": "07:50",
+      "endtime": "08:35"
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "short": "2",
+      "starttime": "08:40",
+      "endtime": "09:25"
+    },
+    {
+      "id": "3",
+      "name": "3",
+      "short": "3",
+      "starttime": "09:35",
+      "endtime": "10:20"
+    },
+    {
+      "id": "4",
+      "name": "4",
+      "short": "4",
+      "starttime": "10:30",
+      "endtime": "11:15"
+    },
+    {
+      "id": "5",
+      "name": "5",
+      "short": "5",
+      "starttime": "11:20",
+      "endtime": "12:05"
+    },
+    {
+      "id": "6",
+      "name": "6",
+      "short": "6",
+      "starttime": "12:40",
+      "endtime": "13:25"
+    },
+    {
+      "id": "7",
+      "name": "7",
+      "short": "7",
+      "starttime": "13:30",
+      "endtime": "14:15"
+    },
+    {
+      "id": "8",
+      "name": "8",
+      "short": "8",
+      "starttime": "14:20",
+      "endtime": "15:05"
+    }
+  ],
+  "sliderEnabled": false,
+  "videoUrl": "http://triednakniha.sk/video",
+  "spe": false,
+  "zobrazRozvrh": true,
+  "zobrazKalendar": true,
+  "events": [],
+  "tips": [],
+  "etestEnabled": true,
+  "updateInterval": 1800000
+}

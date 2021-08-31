@@ -1,0 +1,15 @@
+<div class="_RSS43851139">
+   <style type="text/css">._RSS43851139 .signature {float:right;border-Bottom:1px dashed #c0c0c0;width:100px;margin-Right:4px;margin-Left:10px}\n._RSS43851139 .row {display:flex;flex-Direction:row;align-Items:baseline;font-Size:12px;margin-Bottom:1px}\n._RSS43851139 .period {font-Size:16px;text-Align:center;flex-Grow:0;margin-Right:10px}\n._RSS43851139 .period>span {white-Space:pre;display:inline-block;min-Width:30px}\n._RSS43851139 .info {flex:1}\n._RSS43851139 .section {margin-Bottom:20px}\n._RSS43851139 .header {font-Size:20px;font-Weight:bold;padding:4px;background-Color:#e0e0e0;margin-Bottom:5px}\n._RSS43851139 .header .signature {border-Color:#a0a0a0}\n._RSS43851139 .rows {padding-Left:20px}</style>
+   <div data-date="2021-06-20">
+      <div style="height:15px;flex:none"></div>
+      <div class="section print-nobreak">
+         <div class="header"><span class="print-font-resizable"></span></div>
+         <div class="rows">
+            <div class="row nosubst">
+               <div class="period"><span class="print-font-resizable"></span></div>
+               <div class="info"><span class="print-font-resizable">Na tento deň nie sú zadané žiadne suplovania.</span></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
