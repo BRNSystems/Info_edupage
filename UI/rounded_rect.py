@@ -2,13 +2,6 @@ import pygame.gfxdraw
 
 
 def draw_rounded_rect(surface, rect, color, corner_radius):
-    ''' Draw a rectangle with rounded corners.
-    Would prefer this:
-        pygame.draw.rect(surface, color, rect, border_radius=corner_radius)
-    but this option is not yet supported in my version of pygame so do it ourselves.
-
-    We use anti-aliased circles to make the corners smoother
-    '''
     if rect.width < 2 * corner_radius or rect.height < 2 * corner_radius:
         raise ValueError(f"Both height (rect.height) and width (rect.width) must be > 2 * corner radius ({corner_radius})")
 
