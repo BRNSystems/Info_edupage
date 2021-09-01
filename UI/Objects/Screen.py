@@ -1,5 +1,5 @@
+import math
 from numpy import array as a
-import numpy as np
 import pygame
 
 
@@ -15,6 +15,8 @@ class Screen:
             [screen_size[0] / width, 0],
             [0, screen_size[1] / height]
         ])
+        self.pd = abs(self.matrix[0, 0] * self.matrix[1, 1])  # positive determinant
+        self.pd_ = math.sqrt(self.pd)
 
         self.s_ = pygame.Surface([width, height])
         self.s = pygame.display.set_mode(screen_size)
@@ -22,3 +24,6 @@ class Screen:
         self.font_size = font_size
 
         self.center = a([width, height]) / 2
+
+    def save(self, path):
+        pygame.image.save(self.s, path)

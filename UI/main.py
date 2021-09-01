@@ -3,7 +3,7 @@ from numpy import array as a
 import time
 
 
-scene = BasicScene(10, [600, 400])
+scene = BasicScene(10, [600, 500])
 
 
 while True:

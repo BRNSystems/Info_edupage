@@ -1,7 +1,6 @@
 import pygame.transform
 from Objects.Screen import Screen
 from numpy import array as a
-import numpy as np
 
 
 class Scene(Screen):
@@ -20,6 +19,9 @@ class Scene(Screen):
 
         rs = pygame.transform.scale(self.s_, self.screen_size)
         self.s.blit(rs, [0, 0])
+
+        for object_ in self.nr_objects:
+            object_.blit()
 
         pygame.display.update()
 

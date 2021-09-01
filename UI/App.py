@@ -15,6 +15,7 @@ class App:
         q = Queue()
 
         hands_ai_process = Process(target=self.hands_ai.run, args=(q,))
+        hands_ai_process.start()
 
         while True:
             self.scene.redraw()

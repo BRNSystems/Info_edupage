@@ -1,6 +1,4 @@
 import pygame.draw
-from numpy import array as a
-import numpy as np
 
 
 class Rect:
