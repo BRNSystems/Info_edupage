@@ -7,9 +7,9 @@ screen_size = a([200, 500])
 
 
 for i in range(400):
-    scene = BasicScene(10, screen_size)
+    scene = BasicScene(screen_size)
     scene.redraw()
-    #scene.save(f"Render/{i}.png")
+    # scene.save(f"Render/{i}.png", [800, 800])
 
     if i < 150:
         screen_size[0] += 3

@@ -4,8 +4,8 @@ from numpy import array as a
 
 
 class Scene(Screen):
-    def __init__(self, width: float, height: float, font_size: int, scene_size: a, bg=(60, 60, 60)):
-        super().__init__(width, height, font_size, scene_size)
+    def __init__(self, width: float, height: float, scene_size: a, bg=(60, 60, 60)):
+        super().__init__(width, height, scene_size)
 
         self.bg = bg
         self.r_objects = []  # resizable Objects

@@ -4,7 +4,7 @@ import pygame
 
 
 class Screen:
-    def __init__(self, width: float, height: float, font_size: int, screen_size: a):
+    def __init__(self, width: float, height: float, screen_size: a):
         pygame.init()
 
         self.width = width
@@ -21,9 +21,14 @@ class Screen:
         self.s_ = pygame.Surface([width, height])
         self.s = pygame.display.set_mode(screen_size)
 
-        self.font_size = font_size
-
         self.center = a([width, height]) / 2
 
-    def save(self, path):
-        pygame.image.save(self.s, path)
+    def save(self, path, size=None):
+        if size is None:
+            pygame.image.save(self.s, path)
+        else:
+            surface = pygame.Surface(size)
+
+            surface.blit(self.s, [0, 0])
+
+            pygame.image.save(surface, path)
