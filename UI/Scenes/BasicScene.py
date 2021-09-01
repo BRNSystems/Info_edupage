@@ -3,6 +3,7 @@ from Objects.r_objects import *
 from numpy import array as a
 import numpy as np
 
+from UI.Objects.nr_objects.Ellipse import Ellipse
 from UI.Objects.nr_objects.Circle import Circle
 from UI.Objects.nr_objects.Line import Line
 from UI.Objects.r_objects.Rect import Rect
@@ -23,3 +24,6 @@ class BasicScene(Scene):
 
         c0 = Circle(a([400, 200]), 40, (100, 100, 255), self)
         self.nr_objects.append(c0)
+
+        e0 = Ellipse(a([150, 360]), 60, 20, (100, 255, 100), self)
+        self.nr_objects.append(e0)

@@ -11,4 +11,4 @@ class Line:
 
     def blit(self):
         pygame.draw.line(self.scene.s, self.color, self.scene.matrix @ self.a, self.scene.matrix @ self.b,
-                         int(self.width * self.scene.pd))
+                         max(1, int(self.width * self.scene.pd)))
