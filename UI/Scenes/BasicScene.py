@@ -15,4 +15,3 @@ class BasicScene(Scene):
 
         r0 = Rect(a([0, 0]), a([200, 200]), (160, 160, 160), self)
         self.r_objects.append(r0)
-

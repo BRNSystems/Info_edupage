@@ -8,4 +8,4 @@ scene = BasicScene(10, [600, 400])
 
 while True:
     scene.redraw()
-    time.sleep(0.1)
+    time.sleep(0.01)
