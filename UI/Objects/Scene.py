@@ -5,8 +5,8 @@ import numpy as np
 
 
 class Scene(Screen):
-    def __init__(self, width: float, height: float, font_size: int, screen_size: a, bg=(60, 60, 60)):
-        super().__init__(width, height, font_size, screen_size)
+    def __init__(self, width: float, height: float, font_size: int, scene_size: a, bg=(60, 60, 60)):
+        super().__init__(width, height, font_size, scene_size)
 
         self.bg = bg
         self.r_objects = []  # resizable Objects
