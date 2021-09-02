@@ -5,6 +5,7 @@ import numpy as np
 
 from UI.Objects.nr_objects.Ellipse import Ellipse
 from UI.Objects.nr_objects.Circle import Circle
+from UI.Objects.nr_objects.Image import Image
 from UI.Objects.nr_objects.Line import Line
 from UI.Objects.nr_objects.Text import Text
 from UI.Objects.r_objects.Rect import Rect
@@ -31,3 +32,6 @@ class BasicScene(Scene):
 
         t0 = Text(a([100, 50]), "hello world!", 26, (200, 200, 200), self)
         self.nr_objects.append(t0)
+
+        i0 = Image(a([200, 0]), 0.8, "test.png", self)
+        self.nr_objects.append(i0)
