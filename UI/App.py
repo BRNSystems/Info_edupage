@@ -18,7 +18,7 @@ class App:
         hands_ai_process.start()
 
         while True:
-            self.scene.redraw()
+            self.scene.update()
 
             for event in pygame.event.get():
                 if event.type == QUIT:

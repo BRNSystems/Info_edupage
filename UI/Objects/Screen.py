@@ -15,6 +15,10 @@ class Screen:
             [screen_size[0] / width, 0],
             [0, screen_size[1] / height]
         ])
+        self.inverse_matrix = a([
+            [1 / self.matrix[0, 0], 0],
+            [0, 1 / self.matrix[1, 1]]
+        ])
         self.pd = abs(self.matrix[0, 0] * self.matrix[1, 1])  # positive determinant
         self.pd_ = math.sqrt(self.pd)
 
@@ -28,6 +32,10 @@ class Screen:
         self.matrix = a([
             [new_screen_size[0] / self.width, 0],
             [0, new_screen_size[1] / self.height]
+        ])
+        self.inverse_matrix = a([
+            [1 / self.matrix[0, 0], 0],
+            [0, 1 / self.matrix[1, 1]]
         ])
         self.pd = abs(self.matrix[0, 0] * self.matrix[1, 1])  # positive determinant
         self.pd_ = math.sqrt(self.pd)

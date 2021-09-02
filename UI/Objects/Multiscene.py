@@ -20,7 +20,7 @@ class Multiscene(Scene):
 
         self.subscenes_prepared = True
 
-    def redraw(self):
+    def update(self):
         if self.subscenes_prepared is False:
             self.prepare_subscenes()
 
@@ -38,6 +38,14 @@ class Multiscene(Scene):
         for object_ in self.nr_objects:
             object_.blit()
 
+        for object_ in self.nrd_objects:
+            object_.blit()
+            object_.progress()
+
+        for object_ in self.nrc_objects:
+            object_.blit()
+            object_.input(self.mouse_pos, self.clicked)
+
         pygame.display.update()
 
     def resize_screen(self, new_screen_size, subscene=False):
@@ -48,6 +56,10 @@ class Multiscene(Scene):
         self.matrix = a([
             [new_screen_size[0] / self.width, 0],
             [0, new_screen_size[1] / self.height]
+        ])
+        self.inverse_matrix = a([
+            [1 / self.matrix[0, 0], 0],
+            [0, 1 / self.matrix[1, 1]]
         ])
         self.pd = abs(self.matrix[0, 0] * self.matrix[1, 1])  # positive determinant
         self.pd_ = math.sqrt(self.pd)
