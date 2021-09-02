@@ -9,7 +9,10 @@ class Scene(Screen):
 
         self.bg = bg
         self.r_objects = []  # resizable Objects
-        self.nr_objects = []  # non-resizable Objects
+        self.nr_objects = []  # non-rescalable Objects
+
+        self.position = a([0, 0])
+        self.multiscene = None
 
     def redraw(self):
         self.s_.fill(self.bg)
@@ -25,3 +28,9 @@ class Scene(Screen):
 
         pygame.display.update()
 
+    def blit(self):
+        self.redraw()
+        self.multiscene.s.blit(self.s, self.multiscene.matrix @ self.position)
+
+    def progress(self):
+        pass

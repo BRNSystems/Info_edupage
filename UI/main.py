@@ -1,14 +1,18 @@
 from Scenes.BasicScene import BasicScene
+from Scenes.BasicMultiscene import BasicMultiscene
+from Scenes.MultisceneInMultiscene import MultisceneInMultiscene
 from numpy import array as a
 import time
 
 
 screen_size = a([200, 500])
+scene = MultisceneInMultiscene(screen_size)
 
 
 for i in range(400):
-    scene = BasicScene(screen_size)
+    scene.resize_screen(screen_size)
     scene.redraw()
+    scene.progress()
     # scene.save(f"Render/{i}.png", [800, 800])
 
     if i < 150:

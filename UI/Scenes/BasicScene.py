@@ -1,10 +1,10 @@
 from Objects.Scene import Scene
 from Objects.r_objects import *
 from numpy import array as a
-import numpy as np
 
 from UI.Objects.nr_objects.Ellipse import Ellipse
 from UI.Objects.nr_objects.Circle import Circle
+from UI.Objects.nr_objects.EquilateralTriangle import EquilateralTriangle
 from UI.Objects.nr_objects.Image import Image
 from UI.Objects.nr_objects.Line import Line
 from UI.Objects.nr_objects.Text import Text
@@ -14,9 +14,9 @@ from UI.Objects.r_objects.Rect import Rect
 class BasicScene(Scene):
     def __init__(self, scene_size: a, bg=(60, 60, 60)):
 
-        s__size = [600, 400]
+        self.s__size = [600, 400]
 
-        super().__init__(s__size[0], s__size[1], scene_size, bg)
+        super().__init__(self.s__size[0], self.s__size[1], scene_size, bg)
 
         r0 = Rect(a([0, 0]), a([200, 200]), (160, 160, 160), self)
         self.r_objects.append(r0)
@@ -35,3 +35,6 @@ class BasicScene(Scene):
 
         i0 = Image(a([200, 0]), 0.8, "test.png", self)
         self.nr_objects.append(i0)
+
+        t0 = EquilateralTriangle(a([500, 300]), 30, 1, (250, 250, 150), self)
+        self.nr_objects.append(t0)

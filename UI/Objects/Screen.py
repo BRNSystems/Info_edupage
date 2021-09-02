@@ -23,6 +23,20 @@ class Screen:
 
         self.center = a([width, height]) / 2
 
+    def resize_screen(self, new_screen_size, subscene=False):
+        self.screen_size = a(new_screen_size)
+        self.matrix = a([
+            [new_screen_size[0] / self.width, 0],
+            [0, new_screen_size[1] / self.height]
+        ])
+        self.pd = abs(self.matrix[0, 0] * self.matrix[1, 1])  # positive determinant
+        self.pd_ = math.sqrt(self.pd)
+
+        if subscene is False:
+            self.s = pygame.display.set_mode(new_screen_size)
+        else:
+            self.s = pygame.Surface(new_screen_size)
+
     def save(self, path, size=None):
         if size is None:
             pygame.image.save(self.s, path)
