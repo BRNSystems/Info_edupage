@@ -36,7 +36,7 @@ class Rope:
                 self.a.position = center - connection_vector
 
     def __init__(self, position, length, nodes_n, nodes_r, rope_width, scene, gravity=1, start_angle=1,
-                 node_color=(255, 100, 100), rope_color=(255, 160, 160)):
+                 balance_amount=20, node_color=(255, 100, 100), rope_color=(255, 160, 160)):
         self.position = position
         self.length = length
         self.nodes_n = nodes_n
@@ -44,6 +44,7 @@ class Rope:
         self.rope_width = rope_width
         self.gravity = gravity
         self.start_angle = start_angle
+        self.balance_amount = balance_amount
         self.scene = scene
         self.node_color = node_color
         self.rope_color = rope_color
@@ -69,7 +70,7 @@ class Rope:
         for node in self.nodes:
             node.progress(self.gravity)
 
-        for _ in range(6):
+        for _ in range(self.balance_amount):
             for connection in self.connections:
                 connection.balance()
 

@@ -9,7 +9,7 @@ import time
 
 
 screen_size = a([200, 500])
-scene = RopeScene(screen_size)
+scene = MultisceneInMultiscene(screen_size)
 
 mouse_pos = [0, 0]
 clicked = False
@@ -20,7 +20,7 @@ for i in range(400):
     scene.update()
     scene.update_mouse_events(pygame.mouse.get_pos(), pygame.mouse.get_pressed(3)[0])
     scene.progress()
-    # scene.save(f"Render/{i}.png", [800, 800])
+    scene.save(f"Render/{i}.png", [800, 800])
 
     if i < 150:
         screen_size[0] += 3

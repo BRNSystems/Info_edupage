@@ -21,11 +21,13 @@ class RopeInteractiveDot:
             for object_ in self.scene.nrd_objects:
                 if object_.__class__.__name__ == "Rope":
                     for node in object_.nodes:
-                        if math.sqrt(sum((node.position - self.position) ** 2)) < self.forcefield_range:
-                            force_vector = node.position - self.position
-                            force_vector /= math.sqrt(sum(force_vector ** 2))
-                            force_vector *= self.force
+                        if node.locked is False:
+                            if math.sqrt(sum((node.position - self.position) ** 2)) < self.forcefield_range:
+                                force_vector = node.position - self.position
+                                full_force_vector = (force_vector / math.sqrt(sum(force_vector ** 2))) * self.forcefield_range
+                                force_vector = full_force_vector - force_vector
+                                force_vector /= self.forcefield_range / self.force
 
-                            node.position += force_vector
+                                node.position += force_vector
 
 
