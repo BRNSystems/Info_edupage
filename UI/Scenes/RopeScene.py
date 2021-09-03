@@ -13,7 +13,7 @@ class RopeScene(Scene):
 
         super().__init__(s__size[0], s__size[1], scene_size, bg)
 
-        r0 = Rope(a([300, 50]), 200, 40, 2, 2, self, gravity=2)
+        r0 = Rope(a([300, 50]), 200, 40, 2, 2, self)
         self.nrd_objects.append(r0)
 
         rd0 = RopeInteractiveDot(a([100, 100]), 10, (100, 255, 100), 20, 100, self)

@@ -35,7 +35,7 @@ class Rope:
             if self.a.locked is False:
                 self.a.position = center - connection_vector
 
-    def __init__(self, position, length, nodes_n, nodes_r, rope_width, scene, gravity=1, start_angle=1,
+    def __init__(self, position, length, nodes_n, nodes_r, rope_width, scene, gravity=2, start_angle=1,
                  balance_amount=20, node_color=(255, 100, 100), rope_color=(255, 160, 160)):
         self.position = position
         self.length = length
