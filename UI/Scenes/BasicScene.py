@@ -1,5 +1,4 @@
-from Objects.Scene import Scene
-from Objects.r_objects import *
+from UI.Objects.Scene import Scene
 from numpy import array as a
 
 from UI.Objects.nr_objects.Ellipse import Ellipse

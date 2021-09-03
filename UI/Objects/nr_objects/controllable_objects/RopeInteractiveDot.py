@@ -12,13 +12,13 @@ class RopeInteractiveDot:
         self.scene = scene
 
     def blit(self):
-        pygame.draw.circle(self.scene.s, self.color, self.scene.matrix @ self.position, self.r)
+        pygame.draw.circle(self.scene.s, self.color, self.scene.matrix @ self.position, self.r * self.scene.pd_)
 
     def input(self, mouse_pos, clicked):
         self.position = mouse_pos
 
         if clicked:
-            for object_ in self.scene.nrd_objects:
+            for object_ in self.scene.get_i_objects():
                 if object_.__class__.__name__ == "Rope":
                     for node in object_.nodes:
                         if node.locked is False:

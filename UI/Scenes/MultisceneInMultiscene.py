@@ -1,5 +1,5 @@
-from Objects.Multiscene import Multiscene
-from Scenes.BasicMultiscene import BasicMultiscene
+from UI.Objects.Multiscene import Multiscene
+from UI.Scenes.BasicMultiscene import BasicMultiscene
 from numpy import array as a
 
 from UI.Objects.nr_objects.Line import Line

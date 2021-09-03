@@ -36,7 +36,7 @@ class Rope:
                 self.a.position = center - connection_vector
 
     def __init__(self, position, length, nodes_n, nodes_r, rope_width, scene, gravity=2, start_angle=1,
-                 balance_amount=20, node_color=(255, 100, 100), rope_color=(255, 160, 160)):
+                 balance_amount=10, node_color=(255, 100, 100), rope_color=(255, 160, 160)):
         self.position = position
         self.length = length
         self.nodes_n = nodes_n
@@ -76,6 +76,8 @@ class Rope:
 
     def blit(self):
         if self.pd_ != self.scene.pd_:
+            self.pd_ = self.scene.pd_
+
             self.rescaled_rope_segment_length = self.rope_segment_length * self.pd_
             self.rescaled_nodes_r = self.nodes_r * self.pd_
             self.rescaled_rope_width = self.rope_width * self.pd_
@@ -87,10 +89,11 @@ class Rope:
             pygame.draw.line(self.scene.s, self.rope_color,
                              self.scene.matrix @ self.nodes[i].position,
                              self.scene.matrix @ self.nodes[i + 1].position,
-                             int(self.rescaled_rope_width))
+                             max(1, int(self.rescaled_rope_width)))
 
         for node in self.nodes:
-            pygame.draw.circle(self.scene.s, self.node_color, self.scene.matrix @ node.position, self.rescaled_nodes_r)
+            pygame.draw.circle(self.scene.s, self.node_color, self.scene.matrix @ node.position,
+                               max(1, self.rescaled_nodes_r))
 
     @staticmethod
     def to_ints(iterable):

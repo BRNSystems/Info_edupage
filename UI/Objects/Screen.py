@@ -1,5 +1,5 @@
-import math
 from numpy import array as a
+import math
 import pygame
 
 

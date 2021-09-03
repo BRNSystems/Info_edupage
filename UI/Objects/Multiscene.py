@@ -1,7 +1,8 @@
+import copy
 import math
 import pygame
 from numpy import array as a
-from Objects.Scene import Scene
+from UI.Objects.Scene import Scene
 
 
 class Multiscene(Scene):
@@ -71,6 +72,15 @@ class Multiscene(Scene):
 
         self.resize_subscenes()
 
+    def update_mouse_events(self, mouse_pos, clicked):
+        mouse_pos = a(mouse_pos)
+        self.mouse_pos = self.inverse_matrix @ mouse_pos
+        self.clicked = clicked
+
+        for subscene in self.subscenes:
+            subscene.mouse_pos = (subscene.inverse_matrix @ (mouse_pos - (self.matrix @ subscene.position)))
+            subscene.clicked = clicked
+
     def progress(self):
         self.progress_subscenes()
 
@@ -81,6 +91,14 @@ class Multiscene(Scene):
     def progress_subscenes(self):
         for subscene in self.subscenes:
             subscene.progress()
+
+    def get_i_objects(self):
+        i_objects = copy.copy(self.i_objects)
+
+        for subscene in self.subscenes:
+            i_objects += subscene.get_i_objects()
+
+        return i_objects
 
     @staticmethod
     def to_ints(iterable):

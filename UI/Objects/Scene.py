@@ -1,5 +1,5 @@
 import pygame.transform
-from Objects.Screen import Screen
+from UI.Objects.Screen import Screen
 from numpy import array as a
 
 
@@ -13,6 +13,8 @@ class Scene(Screen):
 
         self.nrd_objects = []  # non-rescalable dynamic Objects
         self.nrc_objects = []  # non-rescalable controllable Objects
+
+        self.i_objects = []  # interactive Objects
 
         self.position = a([0, 0])
         self.multiscene = None
@@ -52,3 +54,6 @@ class Scene(Screen):
 
     def progress(self):
         pass
+
+    def get_i_objects(self):
+        return self.i_objects
