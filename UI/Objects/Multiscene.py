@@ -93,7 +93,7 @@ class Multiscene(Scene):
             subscene.progress()
 
     def get_i_objects(self):
-        i_objects = copy.copy(self.i_objects)
+        i_objects = [[copy.copy(self.i_objects), self.mouse_pos]]
 
         for subscene in self.subscenes:
             i_objects += subscene.get_i_objects()

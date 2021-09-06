@@ -56,4 +56,4 @@ class Scene(Screen):
         pass
 
     def get_i_objects(self):
-        return self.i_objects
+        return [[self.i_objects, self.mouse_pos]]

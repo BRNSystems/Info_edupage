@@ -18,16 +18,17 @@ class RopeInteractiveDot:
         self.position = mouse_pos
 
         if clicked:
-            for object_ in self.scene.get_i_objects():
-                if object_.__class__.__name__ == "Rope":
-                    for node in object_.nodes:
-                        if node.locked is False:
-                            if math.sqrt(sum((node.position - self.position) ** 2)) < self.forcefield_range:
-                                force_vector = node.position - self.position
-                                full_force_vector = (force_vector / math.sqrt(sum(force_vector ** 2))) * self.forcefield_range
-                                force_vector = full_force_vector - force_vector
-                                force_vector /= self.forcefield_range / self.force
+            for object_batch in self.scene.get_i_objects():
+                for object_ in object_batch[0]:
+                    if object_.__class__.__name__ == "Rope":
+                        for node in object_.nodes:
+                            if node.locked is False:
+                                if math.sqrt(sum((node.position - self.position) ** 2)) < self.forcefield_range:
+                                    force_vector = node.position - self.position
+                                    full_force_vector = (force_vector / math.sqrt(sum(force_vector ** 2))) * self.forcefield_range
+                                    force_vector = full_force_vector - force_vector
+                                    force_vector /= self.forcefield_range / self.force
 
-                                node.position += force_vector
+                                    node.position += force_vector
 
 
