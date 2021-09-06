@@ -14,10 +14,9 @@ class RopeScene(Scene):
         super().__init__(self.s__size[0], self.s__size[1], scene_size, bg)
 
         r0 = Rope(a([300, 50]), 200, 20, 2, 2, self)
-        self.nrd_objects.append(r0)
-        self.i_objects.append(r0)
 
         rd0 = RopeInteractiveDot(a([0, 0]), 10, (100, 255, 100), 20, 100, self)
-        self.nrc_objects.append(rd0)
+
+        self.sort_objects(r0, rd0)
 
         pygame.mouse.set_visible(False)

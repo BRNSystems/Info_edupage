@@ -3,6 +3,9 @@ import pygame
 
 
 class RopeInteractiveDot:
+
+    object_type = "nr_c"
+
     def __init__(self, position, r, color, force, forcefield_range, scene):
         self.position = position
         self.r = r
@@ -25,7 +28,8 @@ class RopeInteractiveDot:
                             if node.locked is False:
                                 if math.sqrt(sum((node.position - self.position) ** 2)) < self.forcefield_range:
                                     force_vector = node.position - self.position
-                                    full_force_vector = (force_vector / math.sqrt(sum(force_vector ** 2))) * self.forcefield_range
+                                    full_force_vector = (force_vector / math.sqrt(sum(force_vector ** 2))) \
+                                                        * self.forcefield_range
                                     force_vector = full_force_vector - force_vector
                                     force_vector /= self.forcefield_range / self.force
 

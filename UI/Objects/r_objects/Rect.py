@@ -2,6 +2,9 @@ import pygame.draw
 
 
 class Rect:
+
+    object_type = "r"
+
     def __init__(self, pos, size, color, scene):
         self.pos = pos
         self.size = size

@@ -12,14 +12,13 @@ class MultisceneInMultiscene(Multiscene):
         super().__init__(self.s__size[0], self.s__size[1], scene_size)
 
         ms0 = BasicMultiscene([600, 400])
-        self.subscenes.append(ms0)
 
         ms1 = BasicMultiscene([600, 400])
         ms1.position = a([0, 400])
-        self.subscenes.append(ms1)
 
         l0 = Line(a([0, 400]), a([600, 400]), 12, (100, 100, 255), self)
-        self.nr_objects.append(l0)
+
+        self.sort_objects(ms0, ms1, l0)
 
         self.i = 0
 

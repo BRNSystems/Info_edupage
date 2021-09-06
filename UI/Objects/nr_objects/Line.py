@@ -2,6 +2,9 @@ import pygame.draw
 
 
 class Line:
+
+    object_type = "nr"
+
     def __init__(self, a, b, width, color, scene):
         self.a = a
         self.b = b

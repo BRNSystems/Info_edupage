@@ -11,7 +11,7 @@ import time
 
 
 screen_size = a([200, 500])
-scene = RopeScene(screen_size)
+scene = RopeMultiscene(screen_size)
 
 mouse_pos = [0, 0]
 clicked = False

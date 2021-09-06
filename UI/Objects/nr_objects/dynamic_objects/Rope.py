@@ -5,6 +5,8 @@ import math
 
 class Rope:
 
+    object_type = "nr_d_i"
+
     class Node:
         def __init__(self, position):
             self.position = position

@@ -6,6 +6,9 @@ from UI.Objects.Scene import Scene
 
 
 class Multiscene(Scene):
+
+    object_type = "multiscene"
+
     def __init__(self, width: float, height: float, scene_size: a):
         super().__init__(width, height, scene_size)
 
@@ -39,12 +42,10 @@ class Multiscene(Scene):
         for object_ in self.nr_objects:
             object_.blit()
 
-        for object_ in self.nrd_objects:
-            object_.blit()
+        for object_ in self.d_objects:
             object_.progress()
 
-        for object_ in self.nrc_objects:
-            object_.blit()
+        for object_ in self.c_objects:
             object_.input(self.mouse_pos, self.clicked)
 
         pygame.display.update()

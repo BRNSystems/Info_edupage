@@ -2,6 +2,9 @@ import pygame
 
 
 class Text:
+
+    object_type = "nr"
+
     def __init__(self, position, text, font_size, color, scene, font_name="calibri", bold=True):
         self.position = position
         self.text = text

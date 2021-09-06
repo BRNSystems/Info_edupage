@@ -2,6 +2,9 @@ import pygame.draw
 
 
 class Circle:
+
+    object_type = "nr"
+
     def __init__(self, center, radius, color, scene):
         self.center = center
         self.radius = radius

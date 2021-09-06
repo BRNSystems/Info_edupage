@@ -4,6 +4,9 @@ import math
 
 
 class EquilateralTriangle:
+
+    object_type = "nr"
+
     def __init__(self, position, side_length, rotation, color, scene, width=0):
         self.position = position
         self.side_length = side_length

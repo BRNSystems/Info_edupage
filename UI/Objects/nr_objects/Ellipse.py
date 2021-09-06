@@ -2,6 +2,9 @@ import pygame
 
 
 class Ellipse:
+
+    object_type = "nr"
+
     def __init__(self, center, a, b, color, scene):
         self.center = center
         self.a = a

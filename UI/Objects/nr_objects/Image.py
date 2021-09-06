@@ -5,6 +5,9 @@ import copy
 
 
 class Image:
+
+    object_type = "nr"
+
     def __init__(self, center, scalar, path, scene):
         self.center = center
         self.scalar = scalar
