@@ -2,7 +2,6 @@ from numpy import array as a
 
 from UI.Objects.Multiscene import Multiscene
 from UI.Objects.nr_objects.Line import Line
-from UI.Objects.nr_objects.controllable_objects.RopeInteractiveDot import RopeInteractiveDot
 from UI.Scenes.RopeScene import RopeScene
 
 
@@ -19,9 +18,6 @@ class RopeMultiscene(Multiscene):
         s1.position = a([200, 0])
 
         l0 = Line(a([200, 0]), a([200, 400]), 10, (255, 100, 100), self)
-
-        rd0 = RopeInteractiveDot(a([0, 0]), 10, (100, 255, 100), 20, 100, self)
-        #self.nrc_objects.append(rd0)
 
         self.sort_objects(s0, s1, l0)
 
