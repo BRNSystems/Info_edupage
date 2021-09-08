@@ -17,6 +17,7 @@ class Scene(Screen):
         self.d_objects = []  # dynamic Objects
         self.c_objects = []  # controllable Objects
         self.i_objects = []  # interactive Objects
+        self.bgt_objects = []  # background threaded Objects
 
         self.position = a([0, 0])
         self.multiscene = None
@@ -58,6 +59,14 @@ class Scene(Screen):
     def get_i_objects(self):
         return [[self.i_objects, self.mouse_pos]]
 
+    def start_bgt_objects(self):
+        for object_ in self.bgt_objects:
+            object_.start_bg_activity()
+
+    def stop_bgt_objects(self):
+        for object_ in self.bgt_objects:
+            object_.stop_bg_activity()
+
     def sort_objects(self, *args):
         for object_ in args:
             for object_tag in object_.object_type.split("_"):
@@ -71,6 +80,8 @@ class Scene(Screen):
                     self.c_objects.append(object_)
                 elif object_tag == "i":
                     self.i_objects.append(object_)
+                elif object_tag == "bgt":
+                    self.bgt_objects.append(object_)
                 elif object_tag in ["scene", "multiscene"]:
                     if self.object_type == "multiscene":
                         self.subscenes.append(object_)

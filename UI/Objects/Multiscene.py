@@ -101,6 +101,20 @@ class Multiscene(Scene):
 
         return i_objects
 
+    def start_bgt_objects(self):
+        for object_ in self.bgt_objects:
+            object_.start_bg_activity()
+
+        for subscene in self.subscenes:
+            subscene.start_bg_activity()
+
+    def stop_bgt_objects(self):
+        for object_ in self.bgt_objects:
+            object_.stop_bg_activity()
+
+        for subscene in self.subscenes:
+            subscene.stop_bg_activity()
+
     @staticmethod
     def to_ints(iterable):
         for i in range(len(iterable)):
