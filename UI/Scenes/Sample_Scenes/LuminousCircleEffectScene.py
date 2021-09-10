@@ -11,6 +11,6 @@ class LuminousCircleEffectScene(Scene):
 
         super().__init__(*s__size, screen_size, bg)
 
-        ce0 = LuminousCircleEffect(a([300, 200]), 100, (80, 120, 80), self, circles_n=600)
+        lce0 = LuminousCircleEffect(a([300, 200]), 100, (80, 120, 80), self, circles_n=60)
 
-        self.sort_objects(ce0)
+        self.sort_objects(lce0)

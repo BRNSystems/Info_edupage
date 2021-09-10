@@ -1,17 +1,15 @@
 import pygame.mouse
 
-from UI.Scenes.BasicScene import BasicScene
-from UI.Scenes.BasicMultiscene import BasicMultiscene
-from UI.Scenes.MultisceneInMultiscene import MultisceneInMultiscene
-from UI.Scenes.RopeScene import RopeScene
-from UI.Scenes.RopeMultiscene import RopeMultiscene
-from UI.Scenes.LuminousCircleEffectScene import LuminousCircleEffectScene
+from UI.Scenes.Sample_Scenes.BasicMultiscene import BasicMultiscene
+from UI.Scenes.Sample_Scenes.BasicScene import BasicScene
+from UI.Scenes.Sample_Scenes.LuminousCircleEffectMultiscene import LuminousCircleEffectMultiscene
+from UI.Scenes.Sample_Scenes.LuminousCircleEffectScene import LuminousCircleEffectScene
 
 from numpy import array as a
 import time
 
 screen_size = a([200, 500])
-scene = LuminousCircleEffectScene(screen_size)
+scene = LuminousCircleEffectMultiscene(screen_size)
 
 mouse_pos = [0, 0]
 clicked = False

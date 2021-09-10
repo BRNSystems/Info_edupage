@@ -22,12 +22,11 @@ class Multiscene(Scene):
             subscene.subscene_size = subscene.screen_size
             subscene.resize_screen(self.to_ints((self.matrix @ subscene.subscene_size).tolist()), True)
 
+        self.s = pygame.display.set_mode(self.screen_size)
+
         self.subscenes_prepared = True
 
     def light_update(self):
-        for subscene in self.subscenes:
-            subscene.light_update()
-
         for object_ in self.l_objects:
             object_.update()
             object_.blit()

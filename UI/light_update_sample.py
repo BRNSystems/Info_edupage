@@ -1,17 +1,18 @@
 from numpy import array as a
 import time
-from UI.Scenes.LuminousCircleEffectScene import LuminousCircleEffectScene
+
+from UI.Scenes.Sample_Scenes.LuminousCircleEffectMultiscene import LuminousCircleEffectMultiscene
+from UI.Scenes.Sample_Scenes.LuminousCircleEffectScene import LuminousCircleEffectScene
 
 
 screen_size = a([1000, 800])
-scene = LuminousCircleEffectScene(screen_size)
+scene = LuminousCircleEffectMultiscene(screen_size)
 
 
 scene.update()
 for i in range(400):
 
-    scene.update()
-    scene.save(f"Render/{i}.png", screen_size)
+    scene.light_update()
 
     time.sleep(0.05)
 
