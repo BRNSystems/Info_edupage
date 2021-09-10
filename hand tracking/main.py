@@ -81,12 +81,6 @@ class Hands_AI:
             else:
                 self.x, self.y = None, None
             cv2.imshow("Image", img)
-            cv2.imwrite("UI/video_capture_.png", img)
-            try:
-                os.remove("UI/video_capture.png")
-                os.rename("UI/video_capture_.png", "UI/video_capture.png")
-            except:
-                pass
             cv2.waitKey(1)
 
 

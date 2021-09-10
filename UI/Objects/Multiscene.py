@@ -24,11 +24,24 @@ class Multiscene(Scene):
 
         self.subscenes_prepared = True
 
+    def light_update(self):
+        for subscene in self.subscenes:
+            subscene.light_update()
+
+        for object_ in self.l_objects:
+            object_.update()
+            object_.blit()
+
+        pygame.display.update()
+
     def update(self):
         if self.subscenes_prepared is False:
             self.prepare_subscenes()
 
         self.s_.fill(self.bg)
+
+        for object_ in self.l_objects:
+            object_.update()
 
         for object_ in self.r_objects:
             object_.blit()
@@ -100,20 +113,6 @@ class Multiscene(Scene):
             i_objects += subscene.get_i_objects()
 
         return i_objects
-
-    def start_bgt_objects(self):
-        for object_ in self.bgt_objects:
-            object_.start_bg_activity()
-
-        for subscene in self.subscenes:
-            subscene.start_bg_activity()
-
-    def stop_bgt_objects(self):
-        for object_ in self.bgt_objects:
-            object_.stop_bg_activity()
-
-        for subscene in self.subscenes:
-            subscene.stop_bg_activity()
 
     @staticmethod
     def to_ints(iterable):

@@ -5,17 +5,16 @@ from UI.Scenes.BasicMultiscene import BasicMultiscene
 from UI.Scenes.MultisceneInMultiscene import MultisceneInMultiscene
 from UI.Scenes.RopeScene import RopeScene
 from UI.Scenes.RopeMultiscene import RopeMultiscene
-from UI.Scenes.VideoScene import VideoScene
+from UI.Scenes.LuminousCircleEffectScene import LuminousCircleEffectScene
 
 from numpy import array as a
 import time
 
 screen_size = a([200, 500])
-scene = VideoScene(screen_size)
+scene = LuminousCircleEffectScene(screen_size)
 
 mouse_pos = [0, 0]
 clicked = False
-
 
 for i in range(400):
     scene.resize_screen(screen_size)
@@ -32,6 +31,4 @@ for i in range(400):
         pass
         screen_size -= 4
 
-    time.sleep(0.01)
-
-scene.stop_bgt_objects()
+    time.sleep(0.1)
