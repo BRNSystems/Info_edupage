@@ -25,4 +25,4 @@ for i in range(400):
         pass
         screen_size -= 4
 
-    time.sleep(0.1)
+    time.sleep(0.03)
