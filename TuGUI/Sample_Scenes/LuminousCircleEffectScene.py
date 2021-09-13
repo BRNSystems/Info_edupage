@@ -1,7 +1,7 @@
-from GUI.Objects.Scene import Scene
+from TuGUI.Objects.Scene import Scene
 from numpy import array as a
 
-from GUI.Objects.nr_objects.light_objects.LuminousCircleEffect import LuminousCircleEffect
+from TuGUI.Objects.nr_objects.light_objects.LuminousCircleEffect import LuminousCircleEffect
 
 
 class LuminousCircleEffectScene(Scene):

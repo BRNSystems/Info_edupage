@@ -3,7 +3,7 @@ import pygame.mouse
 from numpy import array as a
 import time
 
-from GUI.Sample_Scenes.BasicScene import BasicScene
+from TuGUI.Sample_Scenes.BasicScene import BasicScene
 
 screen_size = a([200, 500])
 scene = BasicScene(screen_size)

@@ -1,7 +1,7 @@
 from numpy import array as a
 import time
 
-from GUI.Sample_Scenes.LuminousCircleEffectMultiscene import LuminousCircleEffectMultiscene
+from TuGUI.Sample_Scenes.LuminousCircleEffectMultiscene import LuminousCircleEffectMultiscene
 
 screen_size = a([1000, 800])
 scene = LuminousCircleEffectMultiscene(screen_size)

@@ -1,8 +1,8 @@
 from numpy import array as a
 
-from GUI.Objects.Multiscene import Multiscene
-from GUI.Objects.nr_objects.Line import Line
-from GUI.Sample_Scenes.RopeScene import RopeScene
+from TuGUI.Objects.Multiscene import Multiscene
+from TuGUI.Objects.nr_objects.Line import Line
+from TuGUI.Sample_Scenes.RopeScene import RopeScene
 
 
 class RopeMultiscene(Multiscene):

@@ -2,7 +2,7 @@ import copy
 import math
 import pygame
 from numpy import array as a
-from GUI.Objects.Scene import Scene
+from TuGUI.Objects.Scene import Scene
 
 
 class Multiscene(Scene):

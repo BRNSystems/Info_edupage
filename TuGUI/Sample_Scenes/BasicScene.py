@@ -1,13 +1,13 @@
-from GUI.Objects.Scene import Scene
+from TuGUI.Objects.Scene import Scene
 from numpy import array as a
 
-from GUI.Objects.nr_objects.Ellipse import Ellipse
-from GUI.Objects.nr_objects.Circle import Circle
-from GUI.Objects.nr_objects.EquilateralTriangle import EquilateralTriangle
-from GUI.Objects.nr_objects.Image import Image
-from GUI.Objects.nr_objects.Line import Line
-from GUI.Objects.nr_objects.Text import Text
-from GUI.Objects.r_objects.Rect import Rect
+from TuGUI.Objects.nr_objects.Ellipse import Ellipse
+from TuGUI.Objects.nr_objects.Circle import Circle
+from TuGUI.Objects.nr_objects.EquilateralTriangle import EquilateralTriangle
+from TuGUI.Objects.nr_objects.Image import Image
+from TuGUI.Objects.nr_objects.Line import Line
+from TuGUI.Objects.nr_objects.Text import Text
+from TuGUI.Objects.r_objects.Rect import Rect
 
 
 class BasicScene(Scene):

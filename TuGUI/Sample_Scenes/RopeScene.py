@@ -1,9 +1,9 @@
-from GUI.Objects.Scene import Scene
+from TuGUI.Objects.Scene import Scene
 from numpy import array as a
 import pygame
 
-from GUI.Objects.nr_objects.dynamic_objects.Rope import Rope
-from GUI.Objects.nr_objects.controllable_objects.RopeInteractiveDot import RopeInteractiveDot
+from TuGUI.Objects.nr_objects.dynamic_objects.Rope import Rope
+from TuGUI.Objects.nr_objects.controllable_objects.RopeInteractiveDot import RopeInteractiveDot
 
 
 class RopeScene(Scene):
