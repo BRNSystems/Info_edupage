@@ -1,13 +1,13 @@
-from UI.Objects.Scene import Scene
+from GUI.Objects.Scene import Scene
 from numpy import array as a
 
-from UI.Objects.nr_objects.Ellipse import Ellipse
-from UI.Objects.nr_objects.Circle import Circle
-from UI.Objects.nr_objects.EquilateralTriangle import EquilateralTriangle
-from UI.Objects.nr_objects.Image import Image
-from UI.Objects.nr_objects.Line import Line
-from UI.Objects.nr_objects.Text import Text
-from UI.Objects.r_objects.Rect import Rect
+from GUI.Objects.nr_objects.Ellipse import Ellipse
+from GUI.Objects.nr_objects.Circle import Circle
+from GUI.Objects.nr_objects.EquilateralTriangle import EquilateralTriangle
+from GUI.Objects.nr_objects.Image import Image
+from GUI.Objects.nr_objects.Line import Line
+from GUI.Objects.nr_objects.Text import Text
+from GUI.Objects.r_objects.Rect import Rect
 
 
 class BasicScene(Scene):
@@ -27,7 +27,7 @@ class BasicScene(Scene):
 
         t0 = Text(a([100, 50]), "hello world!", 26, (200, 200, 200), self)
 
-        i0 = Image(a([200, 0]), 0.8, "test.png", self)
+        i0 = Image(a([200, 0]), 0.8, "sample_image.png", self)
 
         triangle0 = EquilateralTriangle(a([500, 300]), 30, 1, (250, 250, 150), self)
 

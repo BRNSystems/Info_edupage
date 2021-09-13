@@ -1,7 +1,7 @@
-from UI.Objects.Scene import Scene
+from GUI.Objects.Scene import Scene
 from numpy import array as a
 
-from UI.Objects.nr_objects.light_objects.LuminousCircleEffect import LuminousCircleEffect
+from GUI.Objects.nr_objects.light_objects.LuminousCircleEffect import LuminousCircleEffect
 
 
 class LuminousCircleEffectScene(Scene):

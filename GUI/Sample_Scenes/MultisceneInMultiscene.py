@@ -1,8 +1,8 @@
-from UI.Objects.Multiscene import Multiscene
-from UI.Scenes.Sample_Scenes.BasicMultiscene import BasicMultiscene
+from GUI.Objects.Multiscene import Multiscene
+from GUI.Sample_Scenes.BasicMultiscene import BasicMultiscene
 from numpy import array as a
 
-from UI.Objects.nr_objects.Line import Line
+from GUI.Objects.nr_objects.Line import Line
 
 
 class MultisceneInMultiscene(Multiscene):

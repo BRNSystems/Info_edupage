@@ -1,15 +1,12 @@
 import pygame.mouse
 
-from UI.Scenes.Sample_Scenes.BasicMultiscene import BasicMultiscene
-from UI.Scenes.Sample_Scenes.BasicScene import BasicScene
-from UI.Scenes.Sample_Scenes.LuminousCircleEffectMultiscene import LuminousCircleEffectMultiscene
-from UI.Scenes.Sample_Scenes.LuminousCircleEffectScene import LuminousCircleEffectScene
-
 from numpy import array as a
 import time
 
+from GUI.Sample_Scenes.BasicScene import BasicScene
+
 screen_size = a([200, 500])
-scene = LuminousCircleEffectMultiscene(screen_size)
+scene = BasicScene(screen_size)
 
 mouse_pos = [0, 0]
 clicked = False
@@ -19,7 +16,6 @@ for i in range(400):
     scene.update()
     scene.update_mouse_events(pygame.mouse.get_pos(), pygame.mouse.get_pressed(3)[0])
     scene.progress()
-    #scene.save(f"Render/{i}.png", [800, 800])
 
     if i < 150:
         screen_size[0] += 3

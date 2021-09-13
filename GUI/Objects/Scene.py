@@ -1,5 +1,5 @@
 import pygame.transform
-from UI.Objects.Screen import Screen
+from GUI.Objects.Screen import Screen
 from numpy import array as a
 import numpy as np
 
