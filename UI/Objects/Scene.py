@@ -1,6 +1,7 @@
 import pygame.transform
 from UI.Objects.Screen import Screen
 from numpy import array as a
+import numpy as np
 
 
 class Scene(Screen):
@@ -28,7 +29,7 @@ class Scene(Screen):
     def light_update(self):
         for object_ in self.l_objects:
             object_.update()
-            object_.blit()
+            object_.blit(True)
 
         pygame.display.update()
 
@@ -68,6 +69,22 @@ class Scene(Screen):
 
     def get_i_objects(self):
         return [[self.i_objects, self.mouse_pos]]
+
+    def get_info_for_light_objects(self, position):
+        s = self
+        positions = [position]
+        matrices = [self.matrix]
+
+        while s.multiscene is not None:
+            positions.append(s.position)
+            s = s.multiscene
+            matrices.append(s.matrix)
+
+        transformed_position = a([0., 0.])
+        for p, m in zip(positions, matrices):
+            transformed_position += a(m @ p)
+
+        return s.s, transformed_position
 
     def sort_objects(self, *args):
         for object_ in args:

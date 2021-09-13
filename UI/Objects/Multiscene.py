@@ -27,9 +27,12 @@ class Multiscene(Scene):
         self.subscenes_prepared = True
 
     def light_update(self):
+        for subscene in self.subscenes:
+            subscene.light_update()
+
         for object_ in self.l_objects:
             object_.update()
-            object_.blit()
+            object_.blit(True)
 
         pygame.display.update()
 

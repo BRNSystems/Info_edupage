@@ -52,16 +52,31 @@ class LuminousCircleEffect:
         self.point_velocity /= math.sqrt(sum(self.point_velocity ** 2))
         self.point_velocity *= self.point_speed
 
-    def blit(self):
-        rescaled_r = self.r * self.scene.pd_
-        transformed_position = self.scene.matrix @ self.position
+    def blit(self, light_blit=False):
+        if light_blit:
+            s, transformed_position = self.scene.get_info_for_light_objects(self.position)
 
-        x = np.linspace(0, self.point_position[0], self.circles_n) * rescaled_r
-        y = np.linspace(0, self.point_position[1], self.circles_n) * rescaled_r
-        r = np.linspace(rescaled_r, 0, self.circles_n)
+            rescaled_r = self.r * self.scene.pd_
 
-        c = [np.linspace(value, 255, self.circles_n) for value in self.color]
+            x = np.linspace(0, self.point_position[0], self.circles_n) * rescaled_r
+            y = np.linspace(0, self.point_position[1], self.circles_n) * rescaled_r
+            r = np.linspace(rescaled_r, 0, self.circles_n)
 
-        for i in range(self.circles_n - 1):
-            circle(self.scene.s, (c[0][i], c[1][i], c[2][i]),
-                   transformed_position + array([x[i], y[i]]), r[i])
+            c = [np.linspace(value, 255, self.circles_n) for value in self.color]
+
+            for i in range(self.circles_n - 1):
+                circle(s, (c[0][i], c[1][i], c[2][i]),
+                       transformed_position + array([x[i], y[i]]), r[i])
+        else:
+            rescaled_r = self.r * self.scene.pd_
+            transformed_position = self.scene.matrix @ self.position
+
+            x = np.linspace(0, self.point_position[0], self.circles_n) * rescaled_r
+            y = np.linspace(0, self.point_position[1], self.circles_n) * rescaled_r
+            r = np.linspace(rescaled_r, 0, self.circles_n)
+
+            c = [np.linspace(value, 255, self.circles_n) for value in self.color]
+
+            for i in range(self.circles_n - 1):
+                circle(self.scene.s, (c[0][i], c[1][i], c[2][i]),
+                       transformed_position + array([x[i], y[i]]), r[i])
