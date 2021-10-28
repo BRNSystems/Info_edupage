@@ -60,9 +60,9 @@ class Server_Management(commands.Cog):
         try:
             channels[str(guild.id)]
         except:
-            channels[str(guild.id)] = guild.channels[len(guild.channels)-1].name
+            channels[str(guild.id)] = guild.text_channels[len(guild.text_channels)-1].name
 
-            await guild.channels[len(guild.channels)-1].send("This channel has been chosen by Edu-Kun by default "
+            await guild.text_channels[len(guild.text_channels)-1].send("This channel has been chosen by Edu-Kun by default "
                                                              "as channel where bot sends messages(notifications)\n"
                                                              "U can change this with command &set_channel "
                                                              "<channel_name>\n "
